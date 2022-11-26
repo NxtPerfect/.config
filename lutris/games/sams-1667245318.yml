@@ -1,0 +1,9 @@
+game:
+  exe: /mnt/misc/The Sims 4/Game/Bin/TS4_x64.exe
+  working_dir: /mnt/misc/The Sims 4
+system:
+  env:
+    MANGOHUD_CONFIG: cpu_temp,gpu_temp,ram,wine,resolution,font_size=13,round_corners=10.0
+wine:
+  fsr: true
+  version: lutris-fshack-7.2-x86_64

@@ -1,0 +1,17 @@
+game:
+  exe: /mnt/misc/MO2/ModOrganizer.exe
+  working_dir: /mnt/misc/MO2
+system:
+  disable_compositor: true
+  env:
+    MANGOHUD_CONFIG: cpu_temp,gpu_temp,ram,wine,resolution,font_size=12,round_corners=10.0
+    WINE_FSR_OVERRIDE: '1'
+    WINE_FULLSCREEN_FSR: '1'
+    WINE_FULLSCREEN_FSR_STRENGTH: '3'
+  terminal_app: /usr/bin/alacritty
+wine:
+  battleye: false
+  dgvoodoo2: true
+  eac: false
+  fsr: true
+  version: lutris-fshack-7.2-x86_64

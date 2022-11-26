@@ -1,0 +1,37 @@
+{
+    "identity": {
+        "privateKey": "ED25519-V3:aIqms0U/J+Zs1k9V4LvDXdkQSOaIhso+0m1m8+Cm1GSQldztEVJFj3WhAvlqfBc/tQCy0PaRnBlRMKsnTOrwoQ=="
+    },
+    "ui": {
+        "UseCustomChatAreaBackground": true,
+        "chatBackground": "Purple-Wave",
+        "combinedChatWindow": true,
+        "customChatAreaBackground": "file:///home/nxtperfect/.config/speek/TransGradient.jpg",
+        "emojiFont": "Noto-Emoji",
+        "eulaAccepted": "true",
+        "fontSizeMultiplier": 1,
+        "language": "",
+        "minimizeToSystemtray": false,
+        "notificationVolume": 0.75,
+        "playAudioNotification": true,
+        "theme": "Dark",
+        "username": "Aurora"
+    },
+    "users": {
+        "3cxkzgk734quyurgm6wppza2nuzqnf4gdvatpcilby6ykreyjwuav4ad": {
+            "isGroup": false,
+            "nickname": "Chandu PC",
+            "type": "allowed"
+        },
+        "drkn4qe3yjv6aednfmjnrk3fhiz2ddcchowk7yznqdxd7r6mgixnheid": {
+            "isGroup": false,
+            "nickname": "Xoxo",
+            "type": "allowed"
+        },
+        "tyzqtdkt425iji5slcab3gmodwrdze6xn4plytysg4nocmdjrtvm7tad": {
+            "isGroup": false,
+            "nickname": "Chandu",
+            "type": "allowed"
+        }
+    }
+}

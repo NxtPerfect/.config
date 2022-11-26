@@ -1,0 +1,1 @@
+rofi -modi combi -show combi -combi-mod drun,run -no-levenshtein-sort

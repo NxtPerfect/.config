@@ -1,0 +1,26 @@
+{
+	"ipfsConfig": {
+		"type": "go",
+		"path": "/home/nxtperfect/.ipfs",
+		"flags": [
+			"--agent-version-suffix=desktop",
+			"--migrate",
+			"--enable-gc"
+		]
+	},
+	"language": "",
+	"experiments": {},
+	"__internal__": {
+		"migrations": {
+			"version": "0.24.1"
+		}
+	},
+	"automaticGC": true,
+	"openWebUIAtLaunch": true,
+	"window": {
+		"width": 1890,
+		"height": 1014
+	},
+	"daemonConfigRevision": 4,
+	"monochromeTrayIcon": true
+}

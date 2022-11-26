@@ -1,0 +1,6 @@
+2022/10/03-16:39:34.717 1c61 Reusing MANIFEST /home/nxtperfect/.config/Ferdium/Partitions/service-c7e9864b-88c9-41c6-b0fc-a647d8966bae/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/03-16:39:34.717 1c61 Recovering log #1924
+2022/10/03-16:39:34.722 1c61 Reusing old log /home/nxtperfect/.config/Ferdium/Partitions/service-c7e9864b-88c9-41c6-b0fc-a647d8966bae/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/001924.log 
+2022/10/03-16:39:47.073 1b00 Level-0 table #1930: started
+2022/10/03-16:39:47.119 1b00 Level-0 table #1930: 1673037 bytes OK
+2022/10/03-16:39:47.130 1b00 Delete type=0 #1924

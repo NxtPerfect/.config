@@ -1,0 +1,6 @@
+2022/10/03-16:04:04.296 eaf Reusing MANIFEST /home/nxtperfect/.config/Ferdium/Partitions/service-cbd98f99-343e-466b-a7b0-f5d448e6b5ac/Session Storage/MANIFEST-000001
+2022/10/03-16:04:04.299 eaf Recovering log #41
+2022/10/03-16:04:04.307 eaf Reusing old log /home/nxtperfect/.config/Ferdium/Partitions/service-cbd98f99-343e-466b-a7b0-f5d448e6b5ac/Session Storage/000041.log 
+2022/10/03-16:39:46.953 1ce0 Level-0 table #45: started
+2022/10/03-16:39:46.958 1ce0 Level-0 table #45: 9954 bytes OK
+2022/10/03-16:39:46.966 1ce0 Delete type=0 #41

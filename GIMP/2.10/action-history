@@ -1,0 +1,19 @@
+# GIMP action-history
+
+(history-item "edit-clear" 5)
+(history-item "tools-opacity-increase" 0)
+(history-item "select-none" 1)
+(history-item "select-invert" 3)
+(history-item "tools-opacity-decrease" 1)
+(history-item "tools-free-select" 0)
+(history-item "tools-iscissors" 0)
+(history-item "file-save-as" 1)
+(history-item "file-open" 0)
+(history-item "image-rotate-90" 0)
+(history-item "dialogs-selection-editor" 0)
+(history-item "file-export-as" 0)
+(history-item "filters-color-to-alpha" 0)
+(history-item "file-export" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

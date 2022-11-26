@@ -1,0 +1,33 @@
+{
+    "identity": {
+        "privateKey": "ED25519-V3:KDWy/V47Lj3/9/VH4SK9b5EC7sEIzOA/gqAt2W9hLVS6NyuL5RDmxlMHyEuHMJMvTzpfRQka9apV7wpOS1RVQg=="
+    },
+    "ui": {
+        "UseCustomChatAreaBackground": true,
+        "chatBackground": "Purple-Blue",
+        "combinedChatWindow": true,
+        "customChatAreaBackground": "file:///home/nxtperfect/.config/speek/TransGradient.jpg",
+        "customTheme": "/home/nxtperfect/.config/speek/my_speek_theme",
+        "emojiFont": "Noto-Emoji",
+        "language": "en",
+        "minimizeToSystemtray": true,
+        "notificationVolume": 0.754054054054054,
+        "playAudioNotification": true,
+        "showNotificationSystemtray": true,
+        "theme": "Dark",
+        "useCustomTheme": false,
+        "username": "Luna -w-"
+    },
+    "users": {
+        "3cxkzgk734quyurgm6wppza2nuzqnf4gdvatpcilby6ykreyjwuav4ad": {
+            "isGroup": false,
+            "nickname": "Chandu",
+            "type": "allowed"
+        },
+        "tyzqtdkt425iji5slcab3gmodwrdze6xn4plytysg4nocmdjrtvm7tad": {
+            "isGroup": false,
+            "nickname": "Chandu aka GangstaXOXO",
+            "type": "allowed"
+        }
+    }
+}

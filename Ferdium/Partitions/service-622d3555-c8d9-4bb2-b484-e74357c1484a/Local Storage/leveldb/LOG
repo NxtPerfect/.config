@@ -1,0 +1,17 @@
+2022/10/03-15:53:56.829 481 Reusing MANIFEST /home/nxtperfect/.config/Ferdium/Partitions/service-622d3555-c8d9-4bb2-b484-e74357c1484a/Local Storage/leveldb/MANIFEST-000001
+2022/10/03-15:53:56.829 481 Recovering log #554
+2022/10/03-15:53:56.831 481 Level-0 table #557: started
+2022/10/03-15:53:56.852 481 Level-0 table #557: 86751 bytes OK
+2022/10/03-15:53:56.905 481 Delete type=0 #554
+2022/10/03-15:54:59.664 481 Level-0 table #560: started
+2022/10/03-15:54:59.670 481 Level-0 table #560: 85846 bytes OK
+2022/10/03-15:54:59.675 481 Delete type=0 #558
+2022/10/03-15:54:59.675 481 Compacting 4@0 + 1@1 files
+2022/10/03-15:54:59.699 481 Generated table #561@0: 76 keys, 1229506 bytes
+2022/10/03-15:54:59.699 481 Compacted 4@0 + 1@1 files => 1229506 bytes
+2022/10/03-15:54:59.705 481 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/03-15:54:59.706 481 Delete type=2 #553
+2022/10/03-15:54:59.706 481 Delete type=2 #555
+2022/10/03-15:54:59.706 481 Delete type=2 #557
+2022/10/03-15:54:59.706 481 Delete type=2 #560
+2022/10/03-15:54:59.706 481 Delete type=2 #551
