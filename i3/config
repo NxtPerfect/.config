@@ -50,7 +50,7 @@ exec piper &
 exec keepassxc &
 exec syncthing
 
-bindsym Print exec flameshot gui --clipboard
+bindsym Print exec flameshot gui 
 
 # setting up gaps
 gaps inner 10
