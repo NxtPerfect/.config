@@ -3,10 +3,10 @@
     "clear-previous-query": true,
     "disable-desktop-filters": false,
     "grab-mouse-pointer": false,
-    "hotkey-show-app": "<Super>g",
+    "hotkey-show-app": "<Super>u",
     "render-on-screen": "mouse-pointer-monitor",
     "show-indicator-icon": true,
     "show-recent-apps": "5",
-    "terminal-command": "",
+    "terminal-command": "alacritty -e %d",
     "theme-name": "dark"
 }
