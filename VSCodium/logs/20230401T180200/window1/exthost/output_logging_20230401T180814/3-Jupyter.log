@@ -1,0 +1,10 @@
+VSCodium (1.76.2, undefined, desktop)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.4.1.
+Workspace folder /home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation
+info 18:08:15.919: LSP Notebooks experiment is enabled
+info 18:08:16.316: Process Execution: > ~/Documents/Programming/Python/BiggerProjects/Rotation/venv/bin/python -m pip list
+> ~/Documents/Programming/Python/BiggerProjects/Rotation/venv/bin/python -m pip list
+info 20:07:28.485: Shutting down notebooks for 58ab19d3-c1d5-410f-b185-2ab448759a68
+info 20:07:28.485: Disposing HostJupyterExecution 5a566171-cfb8-4f15-a549-032bea9d2a53
+info 20:07:28.485: Disposing HostJupyterExecution 5a566171-cfb8-4f15-a549-032bea9d2a53

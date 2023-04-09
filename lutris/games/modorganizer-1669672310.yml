@@ -1,0 +1,10 @@
+game:
+  exe: /mnt/misc/MO2/ModOrganizer.exe
+  working_dir: /mnt/misc/MO2
+system:
+  env:
+    MANGOHUD_CONFIG: cpu_temp,gpu_temp,ram,resolution,gamemode,font_size=13,round_corners=5.0
+    WINE_FSR_OVERRIDE: '1'
+    WINE_FULLSCREEN_FSR: '1'
+    WINE_FULLSCREEN_FSR_STRENGTH: '2'
+wine: {}

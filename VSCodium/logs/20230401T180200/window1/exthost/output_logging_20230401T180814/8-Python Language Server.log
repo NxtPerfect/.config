@@ -1,0 +1,227 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "46"
+WARNING:pygls.protocol:Cancel notification for unknown message id "206"
+WARNING:pygls.protocol:Cancel notification for unknown message id "217"
+WARNING:pygls.protocol:Cancel notification for unknown message id "218"
+WARNING:pygls.protocol:Cancel notification for unknown message id "219"
+WARNING:pygls.protocol:Cancel notification for unknown message id "221"
+WARNING:pygls.protocol:Cancel notification for unknown message id "220"
+WARNING:pygls.protocol:Cancel notification for unknown message id "225"
+WARNING:pygls.protocol:Cancel notification for unknown message id "229"
+WARNING:pygls.protocol:Cancel notification for unknown message id "226"
+WARNING:pygls.protocol:Cancel notification for unknown message id "227"
+WARNING:pygls.protocol:Cancel notification for unknown message id "228"
+WARNING:pygls.protocol:Cancel notification for unknown message id "240"
+WARNING:pygls.protocol:Cancel notification for unknown message id "243"
+WARNING:pygls.protocol:Cancel notification for unknown message id "241"
+WARNING:pygls.protocol:Cancel notification for unknown message id "242"
+WARNING:pygls.protocol:Cancel notification for unknown message id "246"
+WARNING:pygls.protocol:Cancel notification for unknown message id "245"
+WARNING:pygls.protocol:Cancel notification for unknown message id "244"
+WARNING:pygls.protocol:Cancel notification for unknown message id "248"
+WARNING:pygls.protocol:Cancel notification for unknown message id "249"
+WARNING:pygls.protocol:Cancel notification for unknown message id "251"
+WARNING:pygls.protocol:Cancel notification for unknown message id "250"
+WARNING:pygls.protocol:Cancel notification for unknown message id "254"
+WARNING:pygls.protocol:Cancel notification for unknown message id "252"
+WARNING:pygls.protocol:Cancel notification for unknown message id "253"
+WARNING:pygls.protocol:Cancel notification for unknown message id "256"
+WARNING:pygls.protocol:Cancel notification for unknown message id "255"
+WARNING:pygls.protocol:Cancel notification for unknown message id "257"
+WARNING:pygls.protocol:Cancel notification for unknown message id "258"
+WARNING:pygls.protocol:Cancel notification for unknown message id "260"
+WARNING:pygls.protocol:Cancel notification for unknown message id "262"
+WARNING:pygls.protocol:Cancel notification for unknown message id "259"
+WARNING:pygls.protocol:Cancel notification for unknown message id "263"
+WARNING:pygls.protocol:Cancel notification for unknown message id "264"
+WARNING:pygls.protocol:Cancel notification for unknown message id "265"
+WARNING:pygls.protocol:Cancel notification for unknown message id "266"
+WARNING:pygls.protocol:Cancel notification for unknown message id "269"
+WARNING:pygls.protocol:Cancel notification for unknown message id "267"
+WARNING:pygls.protocol:Cancel notification for unknown message id "268"
+WARNING:pygls.protocol:Cancel notification for unknown message id "270"
+WARNING:pygls.protocol:Cancel notification for unknown message id "272"
+WARNING:pygls.protocol:Cancel notification for unknown message id "273"
+WARNING:pygls.protocol:Cancel notification for unknown message id "271"
+WARNING:pygls.protocol:Cancel notification for unknown message id "274"
+WARNING:pygls.protocol:Cancel notification for unknown message id "275"
+WARNING:pygls.protocol:Cancel notification for unknown message id "276"
+WARNING:pygls.protocol:Cancel notification for unknown message id "277"
+WARNING:pygls.protocol:Cancel notification for unknown message id "278"
+WARNING:pygls.protocol:Cancel notification for unknown message id "279"
+WARNING:pygls.protocol:Cancel notification for unknown message id "280"
+WARNING:pygls.protocol:Cancel notification for unknown message id "281"
+WARNING:pygls.protocol:Cancel notification for unknown message id "282"
+WARNING:pygls.protocol:Cancel notification for unknown message id "284"
+WARNING:pygls.protocol:Cancel notification for unknown message id "285"
+WARNING:pygls.protocol:Cancel notification for unknown message id "286"
+WARNING:pygls.protocol:Cancel notification for unknown message id "283"
+WARNING:pygls.protocol:Cancel notification for unknown message id "287"
+WARNING:pygls.protocol:Cancel notification for unknown message id "289"
+WARNING:pygls.protocol:Cancel notification for unknown message id "290"
+WARNING:pygls.protocol:Cancel notification for unknown message id "291"
+WARNING:pygls.protocol:Cancel notification for unknown message id "288"
+WARNING:pygls.protocol:Cancel notification for unknown message id "292"
+WARNING:pygls.protocol:Cancel notification for unknown message id "293"
+WARNING:pygls.protocol:Cancel notification for unknown message id "294"
+WARNING:pygls.protocol:Cancel notification for unknown message id "295"
+WARNING:pygls.protocol:Cancel notification for unknown message id "296"
+WARNING:pygls.protocol:Cancel notification for unknown message id "298"
+WARNING:pygls.protocol:Cancel notification for unknown message id "297"
+WARNING:pygls.protocol:Cancel notification for unknown message id "299"
+WARNING:pygls.protocol:Cancel notification for unknown message id "300"
+WARNING:pygls.protocol:Cancel notification for unknown message id "301"
+WARNING:pygls.protocol:Cancel notification for unknown message id "343"
+WARNING:pygls.protocol:Cancel notification for unknown message id "404"
+WARNING:pygls.protocol:Cancel notification for unknown message id "420"
+WARNING:pygls.protocol:Cancel notification for unknown message id "496"
+WARNING:pygls.protocol:Cancel notification for unknown message id "512"
+WARNING:pygls.protocol:Cancel notification for unknown message id "622"
+WARNING:pygls.protocol:Cancel notification for unknown message id "700"
+WARNING:pygls.protocol:Cancel notification for unknown message id "701"
+WARNING:pygls.protocol:Cancel notification for unknown message id "728"
+WARNING:pygls.protocol:Cancel notification for unknown message id "745"
+WARNING:pygls.protocol:Cancel notification for unknown message id "806"
+WARNING:pygls.protocol:Cancel notification for unknown message id "820"
+ERROR:pygls.protocol:Failed to handle request 858 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=24:81-24:81, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'end_index' referenced before assignment
+[Error - 7:51:06 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'end_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 859 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=24:81-24:81, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'end_index' referenced before assignment
+[Error - 7:51:06 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'end_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 860 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=24:81-24:81, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'end_index' referenced before assignment
+[Error - 7:51:06 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'end_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "892"
+ERROR:pygls.protocol:Failed to handle request 907 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=24:81-24:81, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'end_index' referenced before assignment
+[Error - 7:51:42 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'end_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "943"
+WARNING:pygls.protocol:Cancel notification for unknown message id "956"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1035"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1096"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1100"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1104"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1145"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1146"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1147"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1148"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1149"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1213"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1214"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1215"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1216"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1217"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1212"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1219"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1218"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1221"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1223"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1222"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1220"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1278"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1516"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1515"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1517"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1519"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1520"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1518"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1521"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1524"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1525"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1526"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1527"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1523"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1529"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1528"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1530"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1531"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1532"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1522"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1533"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1537"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1538"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1588"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1613"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1723"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1768"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1840"

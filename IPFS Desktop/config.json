@@ -12,15 +12,15 @@
 	"experiments": {},
 	"__internal__": {
 		"migrations": {
-			"version": "0.24.1"
+			"version": "0.26.1"
 		}
 	},
 	"automaticGC": true,
 	"openWebUIAtLaunch": true,
 	"window": {
-		"width": 1890,
-		"height": 1014
+		"width": 1835,
+		"height": 994
 	},
-	"daemonConfigRevision": 4,
+	"daemonConfigRevision": 5,
 	"monochromeTrayIcon": true
 }

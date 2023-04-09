@@ -81,3 +81,324 @@
 2022-11-21T19:50:54.478Z info: [launch on startup] disabled
 2022-11-21T19:50:55.203Z info: [updater] update not available
 2022-11-21T20:42:02.402Z info: [ipfsd] stop daemon STARTED
+2022-12-06T21:34:00.505Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-06T21:34:01.551Z info: [web ui] loading STARTED
+2022-12-06T21:34:02.175Z info: [App] startup time - 1.917130656003952 seconds
+2022-12-06T21:34:02.175Z info: [web ui] window ready
+2022-12-06T21:34:02.176Z info: [web ui] navigate to /
+2022-12-06T21:34:02.193Z info: [tray] starting
+2022-12-06T21:34:02.243Z info: [tray] started
+2022-12-06T21:34:02.243Z info: [ipfsd] start daemon STARTED
+2022-12-06T21:34:02.268Z info: [web ui] loading FINISHED 0.7169384709894657s
+2022-12-06T21:34:04.020Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-06T21:34:04.020Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-06T21:34:04.020Z info: [ipfsd] start daemon FINISHED 1.7771771520078181s
+2022-12-06T21:34:04.040Z info: [automatic gc] enabled
+2022-12-06T21:34:04.040Z info: [pubsub] disabled
+2022-12-06T21:34:04.041Z info: [ipns over pubsub] disabled
+2022-12-06T21:34:04.081Z info: [launch on startup] disabled
+2022-12-06T21:34:04.997Z info: [updater] update not available
+2022-12-06T21:45:31.425Z info: [ipfsd] stop daemon STARTED
+2022-12-06T21:45:31.510Z info: [ipfsd] stop daemon FINISHED 0.08422137400507927s
+2022-12-12T20:52:24.518Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-12T20:52:25.564Z info: [web ui] loading STARTED
+2022-12-12T20:52:26.108Z info: [App] startup time - 1.8100317480042576 seconds
+2022-12-12T20:52:26.109Z info: [web ui] window ready
+2022-12-12T20:52:26.109Z info: [web ui] navigate to /
+2022-12-12T20:52:26.156Z info: [tray] starting
+2022-12-12T20:52:26.199Z info: [tray] started
+2022-12-12T20:52:26.200Z info: [ipfsd] start daemon STARTED
+2022-12-12T20:52:26.219Z info: [web ui] loading FINISHED 0.6547772179991007s
+2022-12-12T20:52:27.304Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-12T20:52:27.304Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-12T20:52:27.305Z info: [ipfsd] start daemon FINISHED 1.1047176939994097s
+2022-12-12T20:52:27.330Z info: [automatic gc] enabled
+2022-12-12T20:52:27.330Z info: [pubsub] disabled
+2022-12-12T20:52:27.331Z info: [ipns over pubsub] disabled
+2022-12-12T20:52:27.381Z info: [launch on startup] disabled
+2022-12-12T20:52:28.488Z info: [updater] update to 0.25.0 available, download will start
+2022-12-12T20:52:43.938Z info: [updater] update to 0.25.0 downloaded
+2022-12-12T20:56:05.989Z info: [ipfsd] stop daemon STARTED
+2022-12-17T19:46:16.167Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-17T19:46:17.147Z info: [web ui] loading STARTED
+2022-12-17T19:46:17.698Z info: [App] startup time - 1.7597160640060903 seconds
+2022-12-17T19:46:17.699Z info: [web ui] window ready
+2022-12-17T19:46:17.699Z info: [web ui] navigate to /
+2022-12-17T19:46:17.719Z info: [tray] starting
+2022-12-17T19:46:17.787Z info: [tray] started
+2022-12-17T19:46:17.788Z info: [ipfsd] start daemon STARTED
+2022-12-17T19:46:17.826Z info: [web ui] loading FINISHED 0.6783763759881258s
+2022-12-17T19:46:17.881Z info: [daemon] removing api file
+2022-12-17T19:46:18.894Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-17T19:46:18.895Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-17T19:46:18.895Z info: [ipfsd] start daemon FINISHED 1.1069482860118152s
+2022-12-17T19:46:18.908Z info: [automatic gc] enabled
+2022-12-17T19:46:18.909Z info: [pubsub] disabled
+2022-12-17T19:46:18.909Z info: [ipns over pubsub] disabled
+2022-12-17T19:46:18.942Z info: [launch on startup] disabled
+2022-12-17T19:46:20.142Z info: [updater] update to 0.25.0 available, download will start
+2022-12-17T19:46:20.881Z info: [updater] update to 0.25.0 downloaded
+2022-12-17T19:47:50.194Z info: [ipfsd] stop daemon STARTED
+2022-12-17T19:47:50.305Z info: [ipfsd] stop daemon FINISHED 0.11070818500220776s
+2022-12-23T16:25:28.511Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-23T16:25:29.602Z info: [web ui] loading STARTED
+2022-12-23T16:25:30.124Z info: [App] startup time - 1.9312313859984278 seconds
+2022-12-23T16:25:30.125Z info: [web ui] window ready
+2022-12-23T16:25:30.125Z info: [web ui] navigate to /
+2022-12-23T16:25:30.128Z info: [tray] starting
+2022-12-23T16:25:30.167Z info: [tray] started
+2022-12-23T16:25:30.168Z info: [ipfsd] start daemon STARTED
+2022-12-23T16:25:30.182Z info: [web ui] loading FINISHED 0.5796354330033064s
+2022-12-23T16:25:31.319Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-23T16:25:31.319Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-23T16:25:31.320Z info: [ipfsd] start daemon FINISHED 1.151881394997239s
+2022-12-23T16:25:31.343Z info: [automatic gc] enabled
+2022-12-23T16:25:31.344Z info: [pubsub] disabled
+2022-12-23T16:25:31.344Z info: [ipns over pubsub] disabled
+2022-12-23T16:25:31.371Z info: [launch on startup] disabled
+2022-12-23T16:25:32.751Z info: [updater] update not available
+2022-12-23T16:25:38.361Z info: [ipfsd] stop daemon STARTED
+2022-12-23T16:25:38.442Z info: [ipfsd] stop daemon FINISHED 0.08083463700115681s
+2022-12-23T16:26:11.952Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-23T16:26:12.852Z info: [web ui] loading STARTED
+2022-12-23T16:26:13.341Z info: [App] startup time - 1.5660960030034183 seconds
+2022-12-23T16:26:13.342Z info: [web ui] window ready
+2022-12-23T16:26:13.343Z info: [web ui] navigate to /
+2022-12-23T16:26:13.350Z info: [tray] starting
+2022-12-23T16:26:13.420Z info: [tray] started
+2022-12-23T16:26:13.421Z info: [ipfsd] start daemon STARTED
+2022-12-23T16:26:13.447Z info: [web ui] loading FINISHED 0.5951289480030537s
+2022-12-23T16:26:14.386Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-23T16:26:14.387Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-23T16:26:14.387Z info: [ipfsd] start daemon FINISHED 0.965579847998917s
+2022-12-23T16:26:14.399Z info: [automatic gc] enabled
+2022-12-23T16:26:14.399Z info: [pubsub] disabled
+2022-12-23T16:26:14.400Z info: [ipns over pubsub] disabled
+2022-12-23T16:26:14.423Z info: [launch on startup] disabled
+2022-12-23T16:26:15.564Z info: [updater] update not available
+2022-12-23T16:27:20.285Z info: [ipfsd] stop daemon STARTED
+2022-12-23T16:37:41.215Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-23T16:37:42.124Z info: [web ui] loading STARTED
+2022-12-23T16:37:42.578Z info: [App] startup time - 1.6408417190015316 seconds
+2022-12-23T16:37:42.579Z info: [web ui] window ready
+2022-12-23T16:37:42.579Z info: [web ui] navigate to /
+2022-12-23T16:37:42.583Z info: [tray] starting
+2022-12-23T16:37:42.623Z info: [tray] started
+2022-12-23T16:37:42.623Z info: [ipfsd] start daemon STARTED
+2022-12-23T16:37:42.640Z info: [web ui] loading FINISHED 0.5158219930008053s
+2022-12-23T16:37:43.614Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-23T16:37:43.614Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-23T16:37:43.614Z info: [ipfsd] start daemon FINISHED 0.99077285400033s
+2022-12-23T16:37:43.626Z info: [automatic gc] enabled
+2022-12-23T16:37:43.626Z info: [pubsub] disabled
+2022-12-23T16:37:43.627Z info: [ipns over pubsub] disabled
+2022-12-23T16:37:43.661Z info: [launch on startup] disabled
+2022-12-23T16:37:45.383Z info: [updater] update not available
+2022-12-23T16:37:46.825Z info: [ipfsd] stop daemon STARTED
+2022-12-29T22:26:38.368Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-29T22:26:39.277Z info: [web ui] loading STARTED
+2022-12-29T22:26:39.778Z info: [App] startup time - 1.5947764779999851 seconds
+2022-12-29T22:26:39.779Z info: [web ui] window ready
+2022-12-29T22:26:39.779Z info: [web ui] navigate to /
+2022-12-29T22:26:39.783Z info: [tray] starting
+2022-12-29T22:26:39.836Z info: [tray] started
+2022-12-29T22:26:39.837Z info: [ipfsd] start daemon STARTED
+2022-12-29T22:26:39.855Z info: [web ui] loading FINISHED 0.5772704549990595s
+2022-12-29T22:26:40.953Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-29T22:26:40.953Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-29T22:26:40.953Z info: [ipfsd] start daemon FINISHED 1.1163817469999193s
+2022-12-29T22:26:40.967Z info: [automatic gc] enabled
+2022-12-29T22:26:40.968Z info: [pubsub] disabled
+2022-12-29T22:26:40.968Z info: [ipns over pubsub] disabled
+2022-12-29T22:26:40.992Z info: [launch on startup] disabled
+2022-12-29T22:26:42.280Z info: [updater] update not available
+2022-12-29T22:26:43.189Z info: [web ui] window hidden
+2022-12-29T22:41:06.332Z info: [ipfsd] stop daemon STARTED
+2022-12-30T14:08:13.485Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-30T14:08:14.427Z info: [web ui] loading STARTED
+2022-12-30T14:08:14.931Z info: [App] startup time - 1.6494488229975104 seconds
+2022-12-30T14:08:14.932Z info: [web ui] window ready
+2022-12-30T14:08:14.933Z info: [web ui] navigate to /
+2022-12-30T14:08:14.945Z info: [tray] starting
+2022-12-30T14:08:15.010Z info: [tray] started
+2022-12-30T14:08:15.010Z info: [ipfsd] start daemon STARTED
+2022-12-30T14:08:15.051Z info: [web ui] loading FINISHED 0.6232955009937287s
+2022-12-30T14:08:16.115Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-30T14:08:16.115Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-30T14:08:16.116Z info: [ipfsd] start daemon FINISHED 1.1050637589991092s
+2022-12-30T14:08:16.127Z info: [automatic gc] enabled
+2022-12-30T14:08:16.128Z info: [pubsub] disabled
+2022-12-30T14:08:16.128Z info: [ipns over pubsub] disabled
+2022-12-30T14:08:16.152Z info: [launch on startup] disabled
+2022-12-30T14:08:17.117Z info: [web ui] window hidden
+2022-12-30T14:08:17.730Z info: [updater] update not available
+2022-12-30T14:27:01.316Z info: [ipfsd] stop daemon STARTED
+2022-12-30T14:27:01.453Z info: [ipfsd] stop daemon FINISHED 0.136302205003798s
+2022-12-30T18:03:05.838Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2022-12-30T18:03:06.776Z info: [web ui] loading STARTED
+2022-12-30T18:03:07.287Z info: [App] startup time - 1.6443581570014358 seconds
+2022-12-30T18:03:07.288Z info: [web ui] window ready
+2022-12-30T18:03:07.288Z info: [web ui] navigate to /
+2022-12-30T18:03:07.291Z info: [tray] starting
+2022-12-30T18:03:07.350Z info: [tray] started
+2022-12-30T18:03:07.351Z info: [ipfsd] start daemon STARTED
+2022-12-30T18:03:07.366Z info: [web ui] loading FINISHED 0.5896003660038114s
+2022-12-30T18:03:08.368Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2022-12-30T18:03:08.368Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2022-12-30T18:03:08.368Z info: [ipfsd] start daemon FINISHED 1.0173879910036923s
+2022-12-30T18:03:08.381Z info: [automatic gc] enabled
+2022-12-30T18:03:08.381Z info: [pubsub] disabled
+2022-12-30T18:03:08.382Z info: [ipns over pubsub] disabled
+2022-12-30T18:03:08.407Z info: [launch on startup] disabled
+2022-12-30T18:03:09.736Z info: [updater] update not available
+2022-12-30T18:03:14.392Z info: [ipfsd] stop daemon STARTED
+2023-01-02T21:07:41.125Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2023-01-02T21:07:42.136Z info: [web ui] loading STARTED
+2023-01-02T21:07:42.649Z info: [App] startup time - 1.7083091070055962 seconds
+2023-01-02T21:07:42.649Z info: [web ui] window ready
+2023-01-02T21:07:42.650Z info: [web ui] navigate to /
+2023-01-02T21:07:42.671Z info: [tray] starting
+2023-01-02T21:07:42.717Z info: [tray] started
+2023-01-02T21:07:42.718Z info: [ipfsd] start daemon STARTED
+2023-01-02T21:07:42.741Z info: [web ui] loading FINISHED 0.6050982410013676s
+2023-01-02T21:07:43.823Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-01-02T21:07:43.823Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-01-02T21:07:43.824Z info: [ipfsd] start daemon FINISHED 1.1055508459806442s
+2023-01-02T21:07:43.837Z info: [automatic gc] enabled
+2023-01-02T21:07:43.838Z info: [pubsub] disabled
+2023-01-02T21:07:43.838Z info: [ipns over pubsub] disabled
+2023-01-02T21:07:43.863Z info: [launch on startup] disabled
+2023-01-02T21:07:45.137Z info: [updater] update not available
+2023-01-02T21:07:46.462Z info: [web ui] window hidden
+2023-01-02T21:24:16.198Z info: [ipfsd] stop daemon STARTED
+2023-01-02T21:24:16.280Z info: [ipfsd] stop daemon FINISHED 0.08144690400362015s
+2023-01-04T22:03:48.655Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2023-01-04T22:03:49.658Z info: [web ui] loading STARTED
+2023-01-04T22:03:50.135Z info: [App] startup time - 1.7441468629837036 seconds
+2023-01-04T22:03:50.136Z info: [web ui] window ready
+2023-01-04T22:03:50.137Z info: [web ui] navigate to /
+2023-01-04T22:03:50.148Z info: [tray] starting
+2023-01-04T22:03:50.197Z info: [tray] started
+2023-01-04T22:03:50.197Z info: [ipfsd] start daemon STARTED
+2023-01-04T22:03:50.211Z info: [web ui] loading FINISHED 0.5537833909988403s
+2023-01-04T22:03:51.380Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-01-04T22:03:51.380Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-01-04T22:03:51.381Z info: [ipfsd] start daemon FINISHED 1.183153600037098s
+2023-01-04T22:03:51.395Z info: [automatic gc] enabled
+2023-01-04T22:03:51.396Z info: [pubsub] disabled
+2023-01-04T22:03:51.397Z info: [ipns over pubsub] disabled
+2023-01-04T22:03:51.424Z info: [launch on startup] disabled
+2023-01-04T22:03:52.380Z info: [web ui] window hidden
+2023-01-04T22:03:52.450Z info: [updater] update not available
+2023-01-04T22:10:50.768Z info: [ipfsd] stop daemon STARTED
+2023-01-04T22:10:50.856Z info: [ipfsd] stop daemon FINISHED 0.08805370998382568s
+2023-01-04T22:11:09.797Z info: [ipfsd] start daemon STARTED
+2023-01-04T22:11:10.632Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-01-04T22:11:10.632Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-01-04T22:11:10.632Z info: [ipfsd] start daemon FINISHED 0.8355640739798545s
+2023-01-04T22:17:52.695Z info: [ipfsd] stop daemon STARTED
+2023-01-23T09:54:44.177Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2023-01-23T09:54:45.299Z info: [web ui] loading STARTED
+2023-01-23T09:54:45.819Z info: [App] startup time - 1.9268768439888955 seconds
+2023-01-23T09:54:45.820Z info: [web ui] window ready
+2023-01-23T09:54:45.820Z info: [web ui] navigate to /
+2023-01-23T09:54:45.842Z info: [tray] starting
+2023-01-23T09:54:45.896Z info: [tray] started
+2023-01-23T09:54:45.896Z info: [ipfsd] start daemon STARTED
+2023-01-23T09:54:45.914Z info: [web ui] loading FINISHED 0.614453862965107s
+2023-01-23T09:54:47.169Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-01-23T09:54:47.170Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-01-23T09:54:47.170Z info: [ipfsd] start daemon FINISHED 1.2735884349942208s
+2023-01-23T09:54:47.183Z info: [automatic gc] enabled
+2023-01-23T09:54:47.183Z info: [pubsub] disabled
+2023-01-23T09:54:47.184Z info: [ipns over pubsub] disabled
+2023-01-23T09:54:47.212Z info: [launch on startup] disabled
+2023-01-23T09:54:48.312Z info: [updater] update not available
+2023-01-23T09:54:55.516Z info: [ipfsd] stop daemon STARTED
+2023-02-28T12:19:21.045Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2023-02-28T12:19:21.906Z info: [web ui] loading STARTED
+2023-02-28T12:19:22.317Z info: [App] startup time - 1.492984818994999 seconds
+2023-02-28T12:19:22.318Z info: [web ui] window ready
+2023-02-28T12:19:22.318Z info: [web ui] navigate to /
+2023-02-28T12:19:22.321Z info: [tray] starting
+2023-02-28T12:19:22.363Z info: [tray] started
+2023-02-28T12:19:22.363Z info: [ipfsd] start daemon STARTED
+2023-02-28T12:19:22.378Z info: [web ui] loading FINISHED 0.47222004598379136s
+2023-02-28T12:19:28.588Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-02-28T12:19:28.588Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-02-28T12:19:28.588Z info: [ipfsd] start daemon FINISHED 6.225063796013593s
+2023-02-28T12:19:28.598Z info: [automatic gc] enabled
+2023-02-28T12:19:28.599Z info: [pubsub] disabled
+2023-02-28T12:19:28.599Z info: [ipns over pubsub] disabled
+2023-02-28T12:19:28.619Z info: [launch on startup] disabled
+2023-02-28T12:19:28.854Z info: [updater] update to 0.26.1 available, download will start
+2023-02-28T12:19:45.449Z info: [updater] update to 0.26.1 downloaded
+2023-02-28T12:20:46.663Z info: [ipfsd] stop daemon STARTED
+2023-02-28T15:07:52.186Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2023-02-28T15:07:53.037Z info: [web ui] loading STARTED
+2023-02-28T15:07:53.481Z info: [App] startup time - 1.4632911059856415 seconds
+2023-02-28T15:07:53.482Z info: [web ui] window ready
+2023-02-28T15:07:53.483Z info: [web ui] navigate to /
+2023-02-28T15:07:53.488Z info: [tray] starting
+2023-02-28T15:07:53.536Z info: [tray] started
+2023-02-28T15:07:53.537Z info: [ipfsd] start daemon STARTED
+2023-02-28T15:07:53.569Z info: [web ui] loading FINISHED 0.5321720549762249s
+2023-02-28T15:07:53.913Z info: [daemon] ipfs data store is migrating
+2023-02-28T15:07:56.363Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-02-28T15:07:56.364Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-02-28T15:07:56.364Z info: [ipfsd] start daemon FINISHED 2.8270485769808293s
+2023-02-28T15:07:56.375Z info: [automatic gc] enabled
+2023-02-28T15:07:56.375Z info: [pubsub] disabled
+2023-02-28T15:07:56.376Z info: [ipns over pubsub] disabled
+2023-02-28T15:07:56.400Z info: [launch on startup] disabled
+2023-02-28T15:07:56.496Z info: [updater] update not available
+2023-02-28T15:21:12.885Z info: [ipfsd] stop daemon STARTED
+2023-02-28T15:21:12.976Z info: [ipfsd] stop daemon FINISHED 0.09106497898697853s
+2023-02-28T17:01:21.520Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2023-02-28T17:01:22.393Z info: [web ui] loading STARTED
+2023-02-28T17:01:22.851Z info: [App] startup time - 1.5119326200187206 seconds
+2023-02-28T17:01:22.851Z info: [web ui] window ready
+2023-02-28T17:01:22.852Z info: [web ui] navigate to /
+2023-02-28T17:01:22.858Z info: [tray] starting
+2023-02-28T17:01:22.903Z info: [tray] started
+2023-02-28T17:01:22.904Z info: [ipfsd] start daemon STARTED
+2023-02-28T17:01:22.918Z info: [web ui] loading FINISHED 0.5248950770199299s
+2023-02-28T17:01:24.090Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-02-28T17:01:24.090Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-02-28T17:01:24.091Z info: [ipfsd] start daemon FINISHED 1.1866387210190297s
+2023-02-28T17:01:24.101Z info: [automatic gc] enabled
+2023-02-28T17:01:24.101Z info: [pubsub] disabled
+2023-02-28T17:01:24.102Z info: [ipns over pubsub] disabled
+2023-02-28T17:01:24.124Z info: [launch on startup] disabled
+2023-02-28T17:01:25.062Z info: [updater] update not available
+2023-02-28T17:02:17.572Z info: [ipfsd] stop daemon STARTED
+2023-02-28T20:20:23.252Z info: [meta] logs can be found on /home/nxtperfect/.config/IPFS Desktop
+2023-02-28T20:20:24.093Z info: [web ui] loading STARTED
+2023-02-28T20:20:24.543Z info: [App] startup time - 1.463045662999153 seconds
+2023-02-28T20:20:24.544Z info: [web ui] window ready
+2023-02-28T20:20:24.544Z info: [web ui] navigate to /
+2023-02-28T20:20:24.548Z info: [tray] starting
+2023-02-28T20:20:24.593Z info: [tray] started
+2023-02-28T20:20:24.593Z info: [ipfsd] start daemon STARTED
+2023-02-28T20:20:24.607Z info: [web ui] loading FINISHED 0.5133813909888267s
+2023-02-28T20:20:25.605Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-02-28T20:20:25.606Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-02-28T20:20:25.606Z info: [ipfsd] start daemon FINISHED 1.0126185649633408s
+2023-02-28T20:20:25.617Z info: [automatic gc] enabled
+2023-02-28T20:20:25.618Z info: [pubsub] disabled
+2023-02-28T20:20:25.618Z info: [ipns over pubsub] disabled
+2023-02-28T20:20:25.642Z info: [launch on startup] disabled
+2023-02-28T20:20:26.571Z info: [updater] update not available
+2023-02-28T20:31:26.113Z info: [ipfsd] stop daemon STARTED
+2023-02-28T20:31:26.174Z info: [ipfsd] stop daemon FINISHED 0.06083756101131439s
+2023-02-28T20:31:52.729Z info: [ipfsd] start daemon STARTED
+2023-02-28T20:31:58.714Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-02-28T20:31:58.714Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-02-28T20:31:58.714Z info: [ipfsd] start daemon FINISHED 5.985303794980049s
+2023-02-28T20:39:12.978Z info: [ipfsd] stop daemon STARTED
+2023-02-28T20:39:13.033Z info: [ipfsd] stop daemon FINISHED 0.05554635399580002s
+2023-02-28T20:52:52.749Z info: [ipfsd] start daemon STARTED
+2023-02-28T20:52:53.622Z info: [daemon] IPFS_PATH: /home/nxtperfect/.ipfs
+2023-02-28T20:52:53.622Z info: [daemon] PeerID:    12D3KooWB3pDqS8mCRU8R6kEmdRX2v4v6P6zis4pHfDWom5EHMuw
+2023-02-28T20:52:53.622Z info: [ipfsd] start daemon FINISHED 0.8727594809532165s
+2023-02-28T21:02:20.692Z info: [ipfsd] stop daemon STARTED

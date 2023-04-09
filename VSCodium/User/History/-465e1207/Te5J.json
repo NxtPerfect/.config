@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Material Theme Palenight",
+    "python.defaultInterpreterPath": "/bin/python3",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "editor.fontFamily": "'Ubuntu Mono', 'monospace', monospace",
+    "editor.wordWrap": "on",
+    "editor.linkedEditing": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vim.enableNeovim": true,
+    "vim.foldfix": true,
+    "vim.highlightedyank.enable": true,
+    "vim.smartRelativeLine": true,
+    "vim.statusBarColorControl": true,
+    "editor.lineNumbers": "relative",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#5f0000",
+        "statusBar.noFolderBackground": "#5f0000",
+        "statusBar.debuggingBackground": "#5f0000"
+    }
+}

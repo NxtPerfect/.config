@@ -1,0 +1,21 @@
+:root {
+    --background-color: pink;
+}
+
+body {
+    background-color: var(--background-color);
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+* {
+    text-align: center;
+}
+
+main > .text_title {
+    justify-content: center;
+    align-items: center;
+    border: 10rem;
+    border-color: brown;
+}

@@ -1,10 +1,11 @@
 # GIMP user context
 
-(tool "gimp-operation-tool")
+(tool "gimp-bucket-fill-tool")
 (paint-info "gimp-paintbrush")
+(opacity 0.94999999999999996)
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
-(mybrush "100% Opaque")
+(mybrush "Standard")
 (pattern "Pine")
 (gradient "FG to BG (RGB)")
 (palette "Color History")

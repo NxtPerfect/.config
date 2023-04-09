@@ -1,0 +1,18 @@
+{
+  "add books dialog dir": "/home/nxtperfect/Books",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "auto add path choose": "/home/nxtperfect/Books",
+  "recursive book import root dir dialog": "/home/nxtperfect/Books",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

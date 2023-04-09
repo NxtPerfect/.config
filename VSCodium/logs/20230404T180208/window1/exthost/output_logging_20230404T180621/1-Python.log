@@ -1,0 +1,156 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+> conda info --json
+Python interpreter path: ./venv/bin/python
+> . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/printEnvVariables.py
+> ./venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-4 18:6:23.335]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python3 -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /lib64/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-4 18:6:23.389]: Error: Command failed: /lib64/python -I /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+/bin/sh: line 1: /lib64/python: Is a directory
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12) {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: '/lib64/python -I /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py'
+}
+> /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-4 18:6:23.409]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /usr/lib64/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-4 18:6:23.477]: Error: Command failed: /usr/lib64/python -I /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+/bin/sh: line 1: /usr/lib64/python: Is a directory
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12) {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: '/usr/lib64/python -I /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py'
+}
+> /lib64/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-4 18:6:25.405]: Error: Command failed: /lib64/python -I /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+/bin/sh: line 1: /lib64/python: Is a directory
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12) {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: '/lib64/python -I /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py'
+}
+> /usr/lib64/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-3-4 18:6:25.489]: Error: Command failed: /usr/lib64/python -I /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+/bin/sh: line 1: /usr/lib64/python: Is a directory
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12) {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: '/usr/lib64/python -I /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py'
+}
+Starting Jedi language server for Rotation.
+> . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/printEnvVariables.py
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/printEnvVariables.py
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/printEnvVariables.py
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/printEnvVariables.py
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/printEnvVariables.py
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/printEnvVariables.py
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/printEnvVariables.py
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .
+> ./venv/bin/python ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/testing_tools/unittest_discovery.py . *_test.py
+cwd: .

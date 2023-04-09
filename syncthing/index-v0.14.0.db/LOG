@@ -1166,3 +1166,602 @@
 18:51:33.869600 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
 18:51:33.872329 table@compaction committed F-1 S-280B Ke·0 D·11 T·7.842552ms
 18:51:33.874311 table@remove removed @255
+=============== Nov 28, 2022 (CET) ===============
+21:25:44.426503 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:25:44.426925 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+21:25:44.426939 db@open opening
+21:25:44.426976 journal@recovery F·1
+21:25:44.428577 journal@recovery recovering @257
+21:25:44.432958 memdb@flush created L0@260 N·26 S·444B "\x04bq..can,v262076":"\nla..ime,v262052"
+21:25:44.433409 version@stat F·[1 1] S·2KiB[444B 1KiB] Sc·[0.25 0.00]
+21:25:44.448029 db@janitor F·5 G·1
+21:25:44.448041 db@janitor removing table-256
+21:25:44.448066 db@open done T·21.123743ms
+21:26:04.818001 db@close closing
+21:26:04.818178 db@close done T·166.759µs
+=============== Nov 28, 2022 (CET) ===============
+21:49:38.795400 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:49:38.795516 version@stat F·[1 1] S·2KiB[444B 1KiB] Sc·[0.25 0.00]
+21:49:38.795531 db@open opening
+21:49:38.795573 journal@recovery F·1
+21:49:38.797010 journal@recovery recovering @261
+21:49:38.801811 memdb@flush created L0@263 N·10 S·664B "\x00\x00\x00..dbx,v262081":"\x0e\x00\x00..dbx,v262085"
+21:49:38.802673 version@stat F·[2 1] S·2KiB[1KiB 1KiB] Sc·[0.50 0.00]
+21:49:38.818280 db@janitor F·5 G·0
+21:49:38.818304 db@open done T·22.767668ms
+22:04:51.955804 table@compaction L0·2 -> L1·1 S·2KiB Q·262099
+22:04:51.960998 table@build created L1@266 N·46 S·1KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..dbx,v262085"
+22:04:51.961037 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+22:04:51.964469 table@compaction committed F-2 S-1KiB Ke·0 D·36 T·8.630657ms
+22:04:51.964551 table@remove removed @260
+22:04:51.964579 table@remove removed @259
+=============== Nov 29, 2022 (CET) ===============
+08:14:09.498452 db@close closing
+08:14:09.498765 db@close done T·317.987µs
+=============== Nov 29, 2022 (CET) ===============
+08:17:17.324563 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:17:17.325098 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+08:17:17.325112 db@open opening
+08:17:17.325150 journal@recovery F·1
+08:17:17.326551 journal@recovery recovering @264
+08:17:17.330913 memdb@flush created L0@267 N·13 S·720B "\x00\x00\x00..dbx,v262092":"\x0e\x00\x00..dbx,d262090"
+08:17:17.331322 version@stat F·[1 1] S·2KiB[720B 1KiB] Sc·[0.25 0.00]
+08:17:17.342566 db@janitor F·5 G·1
+08:17:17.342582 db@janitor removing table-263
+08:17:17.342614 db@open done T·17.49586ms
+08:32:29.976208 table@compaction L0·1 -> L1·1 S·2KiB Q·262103
+08:32:29.986063 table@build created L1@270 N·46 S·1KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..dbx,v262096"
+08:32:29.986108 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+08:32:29.987123 table@compaction committed F-1 S-707B Ke·0 D·13 T·10.124813ms
+08:32:29.987190 table@remove removed @266
+09:16:34.520391 db@close closing
+09:16:34.520659 db@close done T·274.138µs
+=============== Nov 29, 2022 (CET) ===============
+09:18:30.730651 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:18:30.734542 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+09:18:30.734556 db@open opening
+09:18:30.734594 journal@recovery F·1
+09:18:30.735536 journal@recovery recovering @268
+09:18:30.747707 memdb@flush created L0@271 N·2 S·165B "\x04bq..can,v262104":"\x04bq..can,v262103"
+09:18:30.748356 version@stat F·[1 1] S·1KiB[165B 1KiB] Sc·[0.25 0.00]
+09:18:30.771632 db@janitor F·5 G·1
+09:18:30.771646 db@janitor removing table-267
+09:18:30.771683 db@open done T·37.120516ms
+09:29:51.179288 db@close closing
+09:29:51.179358 db@close done T·68.679µs
+=============== Nov 29, 2022 (CET) ===============
+13:53:28.481604 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:53:28.482050 version@stat F·[1 1] S·1KiB[165B 1KiB] Sc·[0.25 0.00]
+13:53:28.482069 db@open opening
+13:53:28.482121 journal@recovery F·1
+13:53:28.483583 journal@recovery recovering @272
+13:53:28.485719 memdb@flush created L0@274 N·1 S·150B "\x04bq..can,v262106":"\x04bq..can,v262106"
+13:53:28.486705 version@stat F·[2 1] S·1KiB[315B 1KiB] Sc·[0.50 0.00]
+13:53:28.491320 db@janitor F·5 G·0
+13:53:28.491352 db@open done T·9.275141ms
+19:04:27.146722 db@close closing
+19:04:27.147330 db@close done T·604.744µs
+=============== Nov 29, 2022 (CET) ===============
+22:16:48.280834 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:16:48.284472 version@stat F·[2 1] S·1KiB[315B 1KiB] Sc·[0.50 0.00]
+22:16:48.284486 db@open opening
+22:16:48.284523 journal@recovery F·1
+22:16:48.285685 journal@recovery recovering @275
+22:16:48.296688 memdb@flush created L0@277 N·18 S·764B "\x00\x00\x00..dbx,v262117":"\x0e\x00\x00..dbx,v262121"
+22:16:48.297042 version@stat F·[3 1] S·2KiB[1KiB 1KiB] Sc·[0.75 0.00]
+22:16:48.341992 db@janitor F·6 G·0
+22:16:48.342015 db@open done T·57.52284ms
+22:18:41.013097 db@close closing
+22:18:41.013205 db@close done T·105.399µs
+=============== Nov 29, 2022 (CET) ===============
+22:46:58.104638 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:46:58.105696 version@stat F·[3 1] S·2KiB[1KiB 1KiB] Sc·[0.75 0.00]
+22:46:58.105736 db@open opening
+22:46:58.105862 journal@recovery F·1
+22:46:58.108681 journal@recovery recovering @278
+22:46:58.113591 memdb@flush created L0@280 N·1 S·150B "\x04bq..can,v262127":"\x04bq..can,v262127"
+22:46:58.113953 version@stat F·[4 1] S·2KiB[1KiB 1KiB] Sc·[1.00 0.00]
+22:46:58.129155 db@janitor F·7 G·0
+22:46:58.129167 db@open done T·23.420903ms
+22:46:58.129196 table@compaction L0·4 -> L1·1 S·2KiB Q·262128
+22:46:58.134036 table@build created L1@283 N·46 S·1KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..dbx,v262121"
+22:46:58.134068 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+22:46:58.137703 table@compaction committed F-4 S-1KiB Ke·0 D·22 T·8.48943ms
+22:46:58.137765 table@remove removed @277
+22:46:58.137789 table@remove removed @274
+22:46:58.137811 table@remove removed @271
+22:46:58.137833 table@remove removed @270
+23:44:06.657254 db@close closing
+23:44:06.657314 db@close done T·57.919µs
+=============== Nov 29, 2022 (CET) ===============
+23:51:08.717998 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:51:08.720590 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+23:51:08.720612 db@open opening
+23:51:08.720664 journal@recovery F·1
+23:51:08.721541 journal@recovery recovering @281
+23:51:08.734207 memdb@flush created L0@284 N·2 S·165B "\x04bq..can,v262130":"\x04bq..can,v262129"
+23:51:08.734727 version@stat F·[1 1] S·1KiB[165B 1KiB] Sc·[0.25 0.00]
+23:51:08.768990 db@janitor F·5 G·1
+23:51:08.769004 db@janitor removing table-280
+23:51:08.769032 db@open done T·48.413468ms
+=============== Nov 30, 2022 (CET) ===============
+16:42:27.421693 db@close closing
+16:42:27.422613 db@close done T·913.302µs
+=============== Nov 30, 2022 (CET) ===============
+16:45:15.505522 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:45:15.508338 version@stat F·[1 1] S·1KiB[165B 1KiB] Sc·[0.25 0.00]
+16:45:15.508352 db@open opening
+16:45:15.508389 journal@recovery F·1
+16:45:15.509244 journal@recovery recovering @285
+16:45:15.540280 memdb@flush created L0@287 N·7 S·243B "\x04bq..can,v262138":"\nla..ime,v262136"
+16:45:15.540696 version@stat F·[2 1] S·2KiB[408B 1KiB] Sc·[0.50 0.00]
+16:45:15.560740 db@janitor F·5 G·0
+16:45:15.560755 db@open done T·52.397838ms
+=============== Dec 1, 2022 (CET) ===============
+20:11:34.983182 db@close closing
+20:11:34.985571 db@close done T·732.365µs
+=============== Dec 1, 2022 (CET) ===============
+20:15:30.813429 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:15:30.815652 version@stat F·[2 1] S·2KiB[408B 1KiB] Sc·[0.50 0.00]
+20:15:30.815666 db@open opening
+20:15:30.815706 journal@recovery F·1
+20:15:30.816664 journal@recovery recovering @288
+20:15:30.824820 memdb@flush created L0@290 N·37 S·1KiB "\x00\x00\x00..dbx,v262168":"\x0e\x00\x00..dbx,v262172"
+20:15:30.825714 version@stat F·[3 1] S·3KiB[1KiB 1KiB] Sc·[0.75 0.00]
+20:15:30.847412 db@janitor F·6 G·0
+20:15:30.847435 db@open done T·31.762685ms
+20:32:43.989616 table@compaction L0·3 -> L1·1 S·3KiB Q·262178
+20:32:43.998628 table@build created L1@293 N·47 S·1KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..dbx,v262172"
+20:32:43.998704 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+20:32:44.002811 table@compaction committed F-3 S-1KiB Ke·0 D·45 T·13.154611ms
+20:32:44.002942 table@remove removed @287
+20:32:44.002993 table@remove removed @284
+20:32:44.003039 table@remove removed @283
+=============== Dec 11, 2022 (CET) ===============
+21:03:18.297835 db@close closing
+21:03:18.298156 db@close done T·307.097µs
+=============== Dec 11, 2022 (CET) ===============
+22:03:01.242550 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:03:01.243454 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+22:03:01.243470 db@open opening
+22:03:01.243510 journal@recovery F·1
+22:03:01.244461 journal@recovery recovering @291
+22:03:01.255749 memdb@flush created L0@294 N·2077 S·65KiB "\x00\x00\x00..dbx,v264049":"\x10\x00\x00..xuo,v262838"
+22:03:01.256560 version@stat F·[1 1] S·67KiB[65KiB 1KiB] Sc·[0.25 0.00]
+22:03:01.275851 db@janitor F·5 G·1
+22:03:01.275860 db@janitor removing table-290
+22:03:01.275890 db@open done T·32.415057ms
+22:26:02.645601 table@compaction L0·1 -> L1·1 S·67KiB Q·264288
+22:26:02.652002 table@build created L1@297 N·556 S·48KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+22:26:02.652095 version@stat F·[0 1] S·48KiB[0B 48KiB] Sc·[0.00 0.00]
+22:26:02.656357 table@compaction committed F-1 S-19KiB Ke·0 D·1568 T·10.725104ms
+22:26:02.656517 table@remove removed @293
+=============== Dec 15, 2022 (CET) ===============
+17:01:53.428809 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:01:53.430068 version@stat F·[0 1] S·48KiB[0B 48KiB] Sc·[0.00 0.00]
+17:01:53.430085 db@open opening
+17:01:53.430130 journal@recovery F·1
+17:01:53.431659 journal@recovery recovering @295
+17:01:53.438917 memdb@flush created L0@298 N·1098 S·16KiB "\x00\x00\x00..dbx,v265344":"\x0e\x00\x00..chm,v264685"
+17:01:53.439617 version@stat F·[1 1] S·64KiB[16KiB 48KiB] Sc·[0.25 0.00]
+17:01:53.447874 db@janitor F·5 G·1
+17:01:53.447888 db@janitor removing table-294
+17:01:53.447922 db@open done T·17.831482ms
+17:11:06.055150 table@compaction L0·1 -> L1·1 S·64KiB Q·265356
+17:11:06.058160 table@build created L1@301 N·580 S·51KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+17:11:06.058232 version@stat F·[0 1] S·51KiB[0B 51KiB] Sc·[0.00 0.00]
+17:11:06.059198 table@compaction committed F-1 S-13KiB Ke·0 D·1074 T·4.011141ms
+17:11:06.059330 table@remove removed @297
+=============== Dec 16, 2022 (CET) ===============
+12:20:37.276773 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:20:37.278574 version@stat F·[0 1] S·51KiB[0B 51KiB] Sc·[0.00 0.00]
+12:20:37.278600 db@open opening
+12:20:37.278663 journal@recovery F·1
+12:20:37.279815 journal@recovery recovering @299
+12:20:37.283088 memdb@flush created L0@302 N·47 S·1KiB "\x00\x00\x00..dbx,v265368":"\nla..ime,v265400"
+12:20:37.283426 version@stat F·[1 1] S·52KiB[1KiB 51KiB] Sc·[0.25 0.00]
+12:20:37.296856 db@janitor F·5 G·1
+12:20:37.296870 db@janitor removing table-298
+12:20:37.296902 db@open done T·18.296569ms
+12:28:55.421528 table@compaction L0·1 -> L1·1 S·52KiB Q·265418
+12:28:55.426543 table@build created L1@305 N·580 S·51KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+12:28:55.426578 version@stat F·[0 1] S·51KiB[0B 51KiB] Sc·[0.00 0.00]
+12:28:55.430090 table@compaction committed F-1 S-1KiB Ke·0 D·47 T·8.509311ms
+12:28:55.430319 table@remove removed @301
+=============== Dec 22, 2022 (CET) ===============
+12:30:56.586881 db@close closing
+12:30:56.589351 db@close done T·2.462421ms
+=============== Dec 22, 2022 (CET) ===============
+14:28:20.549518 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:28:20.556043 version@stat F·[0 1] S·51KiB[0B 51KiB] Sc·[0.00 0.00]
+14:28:20.556069 db@open opening
+14:28:20.556121 journal@recovery F·1
+14:28:20.557429 journal@recovery recovering @303
+14:28:20.567098 memdb@flush created L0@306 N·529 S·11KiB "\x00\x00\x00..dbx,v265836":"\x0e\x00\x00..gif,v265456"
+14:28:20.567693 version@stat F·[1 1] S·62KiB[11KiB 51KiB] Sc·[0.25 0.00]
+14:28:20.616485 db@janitor F·5 G·1
+14:28:20.616502 db@janitor removing table-302
+14:28:20.616533 db@open done T·60.45923ms
+14:33:36.897417 table@compaction L0·1 -> L1·1 S·62KiB Q·265935
+14:33:36.905389 table@build created L1@309 N·619 S·54KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+14:33:36.905442 version@stat F·[0 1] S·54KiB[0B 54KiB] Sc·[0.00 0.00]
+14:33:36.909382 table@compaction committed F-1 S-7KiB Ke·0 D·490 T·11.917362ms
+14:33:36.909591 table@remove removed @305
+=============== Dec 28, 2022 (CET) ===============
+10:05:31.675360 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:05:31.682008 version@stat F·[0 1] S·54KiB[0B 54KiB] Sc·[0.00 0.00]
+10:05:31.682024 db@open opening
+10:05:31.682063 journal@recovery F·1
+10:05:31.683387 journal@recovery recovering @307
+10:05:31.711848 memdb@flush created L0@310 N·862 S·10KiB "\x00\x00\x00..dbx,v266198":"\x0e\x00\x00..dbx,v266072"
+10:05:31.712232 version@stat F·[1 1] S·65KiB[10KiB 54KiB] Sc·[0.25 0.00]
+10:05:31.737527 db@janitor F·5 G·1
+10:05:31.737544 db@janitor removing table-306
+10:05:31.737581 db@open done T·55.550939ms
+10:06:12.923296 table@compaction L0·1 -> L1·1 S·65KiB Q·266803
+10:06:12.929597 table@build created L1@313 N·619 S·54KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+10:06:12.929642 version@stat F·[0 1] S·54KiB[0B 54KiB] Sc·[0.00 0.00]
+10:06:12.933336 table@compaction committed F-1 S-10KiB Ke·0 D·862 T·10.023062ms
+10:06:12.933446 table@remove removed @309
+=============== Dec 29, 2022 (CET) ===============
+16:59:00.516671 db@close closing
+16:59:00.517013 db@close done T·342.998µs
+=============== Dec 29, 2022 (CET) ===============
+17:00:20.641013 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:00:20.646569 version@stat F·[0 1] S·54KiB[0B 54KiB] Sc·[0.00 0.00]
+17:00:20.646586 db@open opening
+17:00:20.646624 journal@recovery F·1
+17:00:20.647620 journal@recovery recovering @311
+17:00:20.657299 memdb@flush created L0@314 N·183 S·2KiB "\x0354..ion,v266978":"\nla..ime,v266804"
+17:00:20.659662 version@stat F·[1 1] S·56KiB[2KiB 54KiB] Sc·[0.25 0.00]
+17:00:20.682618 db@janitor F·5 G·1
+17:00:20.682636 db@janitor removing table-310
+17:00:20.682677 db@open done T·36.086294ms
+17:11:46.792068 table@compaction L0·1 -> L1·1 S·56KiB Q·266982
+17:11:46.802022 table@build created L1@317 N·619 S·54KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+17:11:46.803125 version@stat F·[0 1] S·54KiB[0B 54KiB] Sc·[0.00 0.00]
+17:11:46.806906 table@compaction committed F-1 S-2KiB Ke·0 D·183 T·13.140555ms
+17:11:46.807630 table@remove removed @313
+=============== Jan 10, 2023 (CET) ===============
+20:36:42.285342 db@close closing
+20:36:42.286075 db@close done T·795.863µs
+=============== Jan 10, 2023 (CET) ===============
+20:49:23.472453 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:49:23.477381 version@stat F·[0 1] S·54KiB[0B 54KiB] Sc·[0.00 0.00]
+20:49:23.477398 db@open opening
+20:49:23.477444 journal@recovery F·1
+20:49:23.478383 journal@recovery recovering @315
+20:49:23.521996 memdb@flush created L0@318 N·2399 S·68KiB "\x00\x00\x00..dbx,v269289":"\x0e\x00\x00..jvu,v267479"
+20:49:23.522757 version@stat F·[1 1] S·123KiB[68KiB 54KiB] Sc·[0.25 0.00]
+20:49:23.528778 db@janitor F·5 G·1
+20:49:23.528795 db@janitor removing table-314
+20:49:23.528949 db@open done T·51.545162ms
+20:49:24.890363 table@compaction L0·1 -> L1·1 S·123KiB Q·269382
+20:49:24.895527 table@build created L1@321 N·1047 S·95KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+20:49:24.895559 version@stat F·[0 1] S·95KiB[0B 95KiB] Sc·[0.00 0.00]
+20:49:24.897656 table@compaction committed F-1 S-27KiB Ke·0 D·1971 T·7.273558ms
+20:49:24.898120 table@remove removed @317
+21:05:00.279807 db@close closing
+21:05:00.280764 db@close done T·955.172µs
+=============== Jan 10, 2023 (CET) ===============
+21:25:23.392055 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:25:23.394802 version@stat F·[0 1] S·95KiB[0B 95KiB] Sc·[0.00 0.00]
+21:25:23.394817 db@open opening
+21:25:23.394859 journal@recovery F·1
+21:25:23.396105 journal@recovery recovering @319
+21:25:23.405668 memdb@flush created L0@322 N·23 S·688B "\x0354..ion,v269402":"\npr..ion,v269380"
+21:25:23.407671 version@stat F·[1 1] S·96KiB[688B 95KiB] Sc·[0.25 0.00]
+21:25:23.429246 db@janitor F·5 G·1
+21:25:23.429264 db@janitor removing table-318
+21:25:23.429306 db@open done T·34.484105ms
+21:33:20.147722 table@compaction L0·1 -> L1·1 S·96KiB Q·269405
+21:33:20.151969 table@build created L1@325 N·1048 S·95KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+21:33:20.152001 version@stat F·[0 1] S·95KiB[0B 95KiB] Sc·[0.00 0.00]
+21:33:20.153067 table@compaction committed F-1 S-688B Ke·0 D·22 T·5.052573ms
+21:33:20.153142 table@remove removed @321
+=============== Jan 11, 2023 (CET) ===============
+08:25:53.564940 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:25:53.568245 version@stat F·[0 1] S·95KiB[0B 95KiB] Sc·[0.00 0.00]
+08:25:53.568260 db@open opening
+08:25:53.568301 journal@recovery F·1
+08:25:53.569893 journal@recovery recovering @323
+08:25:53.578315 memdb@flush created L0@326 N·5 S·214B "\x046e..can,v269407":"\x04bq..can,v269404"
+08:25:53.579262 version@stat F·[1 1] S·96KiB[214B 95KiB] Sc·[0.25 0.00]
+08:25:53.604241 db@janitor F·5 G·1
+08:25:53.604258 db@janitor removing table-322
+08:25:53.604432 db@open done T·36.166758ms
+15:59:48.003733 db@close closing
+15:59:48.003809 db@close done T·74.369µs
+=============== Jan 11, 2023 (CET) ===============
+16:03:16.699087 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:16.704794 version@stat F·[1 1] S·96KiB[214B 95KiB] Sc·[0.25 0.00]
+16:03:16.704811 db@open opening
+16:03:16.704856 journal@recovery F·1
+16:03:16.705891 journal@recovery recovering @327
+16:03:16.715990 memdb@flush created L0@329 N·44 S·2KiB "\x00\x00\x00..odp,v269416":"\x0e\x00\x00..odp,v269439"
+16:03:16.717262 version@stat F·[2 1] S·98KiB[2KiB 95KiB] Sc·[0.50 0.00]
+16:03:16.728472 db@janitor F·5 G·0
+16:03:16.728491 db@open done T·23.673925ms
+16:03:35.442707 table@compaction L0·2 -> L1·1 S·98KiB Q·269460
+16:03:35.446740 table@build created L1@332 N·1073 S·98KiB "\x00\x00\x00..(1),v254086":"\x0e\x00\x00..pdf,v262491"
+16:03:35.446781 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+16:03:35.447658 table@compaction committed F-2 S-127B Ke·0 D·24 T·4.917061ms
+16:03:35.447731 table@remove removed @326
+16:03:35.447876 table@remove removed @325
+=============== Jan 13, 2023 (CET) ===============
+11:50:21.953760 db@close closing
+11:50:21.954054 db@close done T·294.398µs
+=============== Jan 13, 2023 (CET) ===============
+11:51:37.708857 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:51:37.714344 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+11:51:37.714367 db@open opening
+11:51:37.714409 journal@recovery F·1
+11:51:37.715354 journal@recovery recovering @330
+11:51:37.734719 memdb@flush created L0@333 N·2241 S·26KiB "\x00\x00\x00..(1),d269920":"\x11\xe4\xd7..Fh\x1e,v269882"
+11:51:37.736813 version@stat F·[1 1] S·124KiB[26KiB 98KiB] Sc·[0.25 0.00]
+11:51:37.779033 db@janitor F·5 G·1
+11:51:37.779047 db@janitor removing table-329
+11:51:37.779083 db@open done T·64.711995ms
+11:51:39.145127 table@compaction L0·1 -> L1·1 S·124KiB Q·271697
+11:51:39.151856 table@build created L1@336 N·1068 S·98KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..dbx,v270397"
+11:51:39.151884 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+11:51:39.155852 table@compaction committed F-1 S-25KiB Ke·0 D·2246 T·10.706113ms
+11:51:39.155919 table@remove removed @332
+15:39:26.925850 db@close closing
+15:39:26.926088 db@close done T·237.098µs
+=============== Jan 13, 2023 (CET) ===============
+15:40:45.408742 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:40:45.415847 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+15:40:45.415871 db@open opening
+15:40:45.415909 journal@recovery F·1
+15:40:45.417337 journal@recovery recovering @334
+15:40:45.435750 memdb@flush created L0@337 N·486 S·5KiB "\x034T..ion,v272182":"\x04sf..can,v271697"
+15:40:45.436170 version@stat F·[1 1] S·103KiB[5KiB 98KiB] Sc·[0.25 0.00]
+15:40:45.463055 db@janitor F·5 G·1
+15:40:45.463072 db@janitor removing table-333
+15:40:45.463228 db@open done T·47.351591ms
+15:50:52.382317 table@compaction L0·1 -> L1·1 S·103KiB Q·272208
+15:50:52.388879 table@build created L1@340 N·1068 S·98KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..dbx,v270397"
+15:50:52.388908 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+15:50:52.392721 table@compaction committed F-1 S-5KiB Ke·0 D·486 T·10.381221ms
+15:50:52.392808 table@remove removed @336
+=============== Jan 14, 2023 (CET) ===============
+23:54:14.350410 db@close closing
+23:54:14.350805 db@close done T·394.067µs
+=============== Jan 15, 2023 (CET) ===============
+10:20:44.418311 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:20:44.421400 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+10:20:44.421415 db@open opening
+10:20:44.421455 journal@recovery F·1
+10:20:44.422434 journal@recovery recovering @338
+10:20:44.428815 memdb@flush created L0@341 N·2500 S·27KiB "\x00\x00\x00..dbx,v272745":"\x0e\x00\x00..dbx,v272749"
+10:20:44.429381 version@stat F·[1 1] S·125KiB[27KiB 98KiB] Sc·[0.25 0.00]
+10:20:44.435586 db@janitor F·5 G·1
+10:20:44.435596 db@janitor removing table-337
+10:20:44.435625 db@open done T·14.205334ms
+10:23:45.559164 table@compaction L0·1 -> L1·1 S·125KiB Q·274694
+10:23:45.565988 table@build created L1@344 N·1068 S·98KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..dbx,v272749"
+10:23:45.566054 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+10:23:45.567050 table@compaction committed F-1 S-27KiB Ke·0 D·2500 T·7.828344ms
+10:23:45.567486 table@remove removed @340
+=============== Feb 3, 2023 (CET) ===============
+19:52:37.093107 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:52:37.114767 version@stat F·[0 1] S·98KiB[0B 98KiB] Sc·[0.00 0.00]
+19:52:37.114805 db@open opening
+19:52:37.114874 journal@recovery F·1
+19:52:37.127273 journal@recovery recovering @342
+19:52:37.225117 memdb@flush created L0@345 N·32393 S·352KiB "\x00\x00\x00..odp,v275721":"\x0e\x00\x00..dbx,v284296"
+19:52:37.226081 version@stat F·[1 1] S·451KiB[352KiB 98KiB] Sc·[0.25 0.00]
+19:52:37.273960 db@janitor F·5 G·1
+19:52:37.273978 db@janitor removing table-341
+19:52:37.274130 db@open done T·159.318462ms
+19:53:07.852896 table@compaction L0·1 -> L1·1 S·451KiB Q·307081
+19:53:07.873292 table@build created L1@348 N·1126 S·103KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+19:53:07.873383 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+19:53:07.877136 table@compaction committed F-1 S-348KiB Ke·0 D·32335 T·24.183307ms
+19:53:07.877289 table@remove removed @344
+=============== Feb 4, 2023 (CET) ===============
+00:27:47.178344 db@close closing
+00:27:47.179203 db@close done T·856.013µs
+=============== Feb 4, 2023 (CET) ===============
+09:31:53.707695 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:31:53.708585 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+09:31:53.708606 db@open opening
+09:31:53.708651 journal@recovery F·1
+09:31:53.709571 journal@recovery recovering @346
+09:31:53.719031 memdb@flush created L0@349 N·491 S·5KiB "\x034T..ion,v307569":"\x04sf..can,v307079"
+09:31:53.719538 version@stat F·[1 1] S·108KiB[5KiB 103KiB] Sc·[0.25 0.00]
+09:31:53.757210 db@janitor F·5 G·1
+09:31:53.757227 db@janitor removing table-345
+09:31:53.757261 db@open done T·48.647645ms
+09:42:59.759704 table@compaction L0·1 -> L1·1 S·108KiB Q·307598
+09:42:59.769171 table@build created L1@352 N·1126 S·103KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+09:42:59.769219 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+09:42:59.772771 table@compaction committed F-1 S-5KiB Ke·0 D·491 T·13.025007ms
+09:42:59.772865 table@remove removed @348
+=============== Feb 10, 2023 (CET) ===============
+09:34:34.833376 db@close closing
+09:34:34.833809 db@close done T·432.197µs
+=============== Feb 10, 2023 (CET) ===============
+13:43:56.046592 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:43:56.047682 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+13:43:56.047695 db@open opening
+13:43:56.047729 journal@recovery F·1
+13:43:56.048750 journal@recovery recovering @350
+13:43:56.074624 memdb@flush created L0@353 N·10488 S·113KiB "\x00\x00\x00..dbx,v316197":"\x0e\x00\x00..dbx,v314019"
+13:43:56.077010 version@stat F·[1 1] S·216KiB[113KiB 103KiB] Sc·[0.25 0.00]
+13:43:56.104629 db@janitor F·5 G·1
+13:43:56.104649 db@janitor removing table-349
+13:43:56.104684 db@open done T·56.984461ms
+13:43:57.467152 table@compaction L0·1 -> L1·1 S·216KiB Q·318061
+13:43:57.475528 table@build created L1@356 N·1133 S·103KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+13:43:57.475561 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+13:43:57.476524 table@compaction committed F-1 S-112KiB Ke·0 D·10481 T·9.348619ms
+13:43:57.476614 table@remove removed @352
+=============== Feb 17, 2023 (CET) ===============
+14:13:37.119847 db@close closing
+14:13:37.121577 db@close done T·1.956855ms
+=============== Feb 17, 2023 (CET) ===============
+14:23:11.923378 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:23:11.923960 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+14:23:11.923974 db@open opening
+14:23:11.924009 journal@recovery F·1
+14:23:11.925182 journal@recovery recovering @354
+14:23:11.948543 memdb@flush created L0@357 N·13020 S·137KiB "\x00\x00\x00..dbx,v324490":"\x0e\x00\x00..dbx,v319475"
+14:23:11.948935 version@stat F·[1 1] S·240KiB[137KiB 103KiB] Sc·[0.25 0.00]
+14:23:11.953821 db@janitor F·5 G·1
+14:23:11.953833 db@janitor removing table-353
+14:23:11.953987 db@open done T·30.008062ms
+14:23:13.318430 table@compaction L0·1 -> L1·1 S·240KiB Q·331083
+14:23:13.325088 table@build created L1@360 N·1134 S·103KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+14:23:13.325124 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+14:23:13.326586 table@compaction committed F-1 S-137KiB Ke·0 D·13019 T·8.130446ms
+14:23:13.326663 table@remove removed @356
+=============== Feb 22, 2023 (CET) ===============
+13:18:40.488780 db@close closing
+13:18:40.489122 db@close done T·340.497µs
+=============== Feb 22, 2023 (CET) ===============
+14:51:48.771049 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:51:48.771560 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+14:51:48.771575 db@open opening
+14:51:48.771611 journal@recovery F·1
+14:51:48.772900 journal@recovery recovering @358
+14:51:48.788272 memdb@flush created L0@361 N·7598 S·79KiB "\x034T..ion,v338678":"\npr..ion,v331081"
+14:51:48.788626 version@stat F·[1 1] S·183KiB[79KiB 103KiB] Sc·[0.25 0.00]
+14:51:48.803364 db@janitor F·5 G·1
+14:51:48.803370 db@janitor removing table-357
+14:51:48.803397 db@open done T·31.817931ms
+14:52:13.737067 table@compaction L0·1 -> L1·1 S·183KiB Q·338683
+14:52:13.743332 table@build created L1@364 N·1135 S·103KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+14:52:13.743360 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+14:52:13.746976 table@compaction committed F-1 S-79KiB Ke·0 D·7597 T·9.880201ms
+14:52:13.747167 table@remove removed @360
+15:03:37.063852 db@close closing
+15:03:37.063920 db@close done T·66.36µs
+=============== Feb 22, 2023 (CET) ===============
+15:07:17.942448 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:07:17.943146 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+15:07:17.943159 db@open opening
+15:07:17.943200 journal@recovery F·1
+15:07:17.944303 journal@recovery recovering @362
+15:07:17.948724 memdb@flush created L0@365 N·97 S·1KiB "\x034T..ion,v338775":"\x04sf..can,v338680"
+15:07:17.949060 version@stat F·[1 1] S·104KiB[1KiB 103KiB] Sc·[0.25 0.00]
+15:07:17.957249 db@janitor F·5 G·1
+15:07:17.957263 db@janitor removing table-361
+15:07:17.957291 db@open done T·14.128296ms
+15:30:42.310108 table@compaction L0·1 -> L1·1 S·104KiB Q·338825
+15:30:42.314035 table@build created L1@368 N·1135 S·103KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+15:30:42.314062 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+15:30:42.314900 table@compaction committed F-1 S-1KiB Ke·0 D·97 T·4.772491ms
+15:30:42.315000 table@remove removed @364
+=============== Feb 23, 2023 (CET) ===============
+11:20:41.966524 db@close closing
+11:20:41.967762 db@close done T·1.23513ms
+=============== Feb 23, 2023 (CET) ===============
+11:22:08.878467 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:22:08.878997 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+11:22:08.879018 db@open opening
+11:22:08.879070 journal@recovery F·1
+11:22:08.880595 journal@recovery recovering @366
+11:22:08.888692 memdb@flush created L0@369 N·1358 S·14KiB "\x034T..ion,v340135":"\nla..ime,v339890"
+11:22:08.889156 version@stat F·[1 1] S·117KiB[14KiB 103KiB] Sc·[0.25 0.00]
+11:22:08.903232 db@janitor F·5 G·1
+11:22:08.903243 db@janitor removing table-365
+11:22:08.903268 db@open done T·24.245653ms
+11:23:22.869591 table@compaction L0·1 -> L1·1 S·117KiB Q·340143
+11:23:22.878741 table@build created L1@372 N·1135 S·103KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+11:23:22.878787 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+11:23:22.886369 table@compaction committed F-1 S-14KiB Ke·0 D·1358 T·16.74624ms
+11:23:22.886442 table@remove removed @368
+=============== Mar 3, 2023 (CET) ===============
+23:23:34.888920 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:23:34.889378 version@stat F·[0 1] S·103KiB[0B 103KiB] Sc·[0.00 0.00]
+23:23:34.889390 db@open opening
+23:23:34.889423 journal@recovery F·1
+23:23:34.890354 journal@recovery recovering @370
+23:23:34.921185 memdb@flush created L0@373 N·18873 S·414KiB "\x00\x00\x00..jvu,v351014":"\x10\x00\x00..pnd,v349290"
+23:23:34.921891 version@stat F·[1 1] S·517KiB[414KiB 103KiB] Sc·[0.25 0.00]
+23:23:34.926921 db@janitor F·5 G·1
+23:23:34.926931 db@janitor removing table-369
+23:23:34.926957 db@open done T·37.563746ms
+23:25:05.132555 table@compaction L0·1 -> L1·1 S·517KiB Q·359013
+23:25:05.143872 table@build created L1@376 N·3813 S·279KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..dbx,v351450"
+23:25:05.143900 version@stat F·[0 1] S·279KiB[0B 279KiB] Sc·[0.00 0.00]
+23:25:05.151746 table@compaction committed F-1 S-238KiB Ke·0 D·16195 T·19.170109ms
+23:25:05.151999 table@remove removed @372
+=============== Mar 10, 2023 (CET) ===============
+16:12:14.848062 db@close closing
+16:12:14.858288 db@close done T·10.217043ms
+=============== Mar 10, 2023 (CET) ===============
+16:15:00.975348 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:15:00.976838 version@stat F·[0 1] S·279KiB[0B 279KiB] Sc·[0.00 0.00]
+16:15:00.976855 db@open opening
+16:15:00.976890 journal@recovery F·1
+16:15:00.977904 journal@recovery recovering @374
+16:15:01.004398 memdb@flush created L0@377 N·8186 S·86KiB "\x00\x00\x00..dbx,v362260":"\x0e\x00\x00..dbx,v361462"
+16:15:01.004797 version@stat F·[1 1] S·366KiB[86KiB 279KiB] Sc·[0.25 0.00]
+16:15:01.024458 db@janitor F·5 G·1
+16:15:01.024468 db@janitor removing table-373
+16:15:01.024501 db@open done T·47.641871ms
+16:52:36.296635 table@compaction L0·1 -> L1·1 S·366KiB Q·367236
+16:52:36.308238 table@build created L1@380 N·3815 S·279KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+16:52:36.308276 version@stat F·[0 1] S·279KiB[0B 279KiB] Sc·[0.00 0.00]
+16:52:36.312739 table@compaction committed F-1 S-86KiB Ke·0 D·8184 T·15.024067ms
+16:52:36.313619 table@remove removed @376
+=============== Mar 22, 2023 (CET) ===============
+20:41:53.219164 db@close closing
+20:41:53.222595 db@close done T·3.434595ms
+=============== Mar 22, 2023 (CET) ===============
+20:50:09.112901 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:50:09.113368 version@stat F·[0 1] S·279KiB[0B 279KiB] Sc·[0.00 0.00]
+20:50:09.113382 db@open opening
+20:50:09.113414 journal@recovery F·1
+20:50:09.114364 journal@recovery recovering @378
+20:50:09.147607 memdb@flush created L0@381 N·15796 S·173KiB "\x00\x00\x00..dbx,v380276":"\x0e\x00\x00..dbx,v373533"
+20:50:09.147998 version@stat F·[1 1] S·453KiB[173KiB 279KiB] Sc·[0.25 0.00]
+20:50:09.159869 db@janitor F·5 G·1
+20:50:09.159880 db@janitor removing table-377
+20:50:09.159907 db@open done T·46.521958ms
+20:50:10.525424 table@compaction L0·1 -> L1·1 S·453KiB Q·382995
+20:50:10.533996 table@build created L1@384 N·3821 S·280KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+20:50:10.534021 version@stat F·[0 1] S·280KiB[0B 280KiB] Sc·[0.00 0.00]
+20:50:10.536362 table@compaction committed F-1 S-173KiB Ke·0 D·15790 T·10.917339ms
+20:50:10.536922 table@remove removed @380
+=============== Mar 30, 2023 (CEST) ===============
+19:50:47.844516 db@close closing
+19:50:47.845580 db@close done T·529.116µs
+=============== Mar 30, 2023 (CEST) ===============
+19:57:09.041190 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:57:09.048746 version@stat F·[0 1] S·280KiB[0B 280KiB] Sc·[0.00 0.00]
+19:57:09.048766 db@open opening
+19:57:09.048811 journal@recovery F·1
+19:57:09.050138 journal@recovery recovering @382
+19:57:09.074295 memdb@flush created L0@385 N·11251 S·117KiB "\x034T..ion,v394244":"\npr..ion,v382995"
+19:57:09.075543 version@stat F·[1 1] S·397KiB[117KiB 280KiB] Sc·[0.25 0.00]
+19:57:09.093547 db@janitor F·5 G·1
+19:57:09.093558 db@janitor removing table-381
+19:57:09.093588 db@open done T·44.817607ms
+19:57:10.474633 table@compaction L0·1 -> L1·1 S·397KiB Q·394246
+19:57:10.485529 table@build created L1@388 N·3822 S·280KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+19:57:10.485570 version@stat F·[0 1] S·280KiB[0B 280KiB] Sc·[0.00 0.00]
+19:57:10.495823 table@compaction committed F-1 S-117KiB Ke·0 D·11250 T·21.158418ms
+19:57:10.495920 table@remove removed @384
+=============== Apr 9, 2023 (CEST) ===============
+15:17:46.893894 db@close closing
+15:17:46.901545 db@close done T·11.374113ms
+=============== Apr 9, 2023 (CEST) ===============
+15:31:48.352332 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:31:48.354267 version@stat F·[0 1] S·280KiB[0B 280KiB] Sc·[0.00 0.00]
+15:31:48.354299 db@open opening
+15:31:48.354364 journal@recovery F·1
+15:31:48.355442 journal@recovery recovering @386
+15:31:48.393004 memdb@flush created L0@389 N·13482 S·149KiB "\x00\x00\x00..dbx,v403493":"\x0e\x00\x00..dbx,v401496"
+15:31:48.393965 version@stat F·[1 1] S·430KiB[149KiB 280KiB] Sc·[0.25 0.00]
+15:31:48.407043 db@janitor F·5 G·1
+15:31:48.407054 db@janitor removing table-385
+15:31:48.407086 db@open done T·52.780007ms
+15:31:49.790015 table@compaction L0·1 -> L1·1 S·430KiB Q·407729
+15:31:49.797770 table@build created L1@392 N·3828 S·280KiB "\x00\x00\x00..(1),v262944":"\x0e\x00\x00..AOL,v275777"
+15:31:49.797804 version@stat F·[0 1] S·280KiB[0B 280KiB] Sc·[0.00 0.00]
+15:31:49.798803 table@compaction committed F-1 S-149KiB Ke·0 D·13476 T·8.761882ms
+15:31:49.799023 table@remove removed @388

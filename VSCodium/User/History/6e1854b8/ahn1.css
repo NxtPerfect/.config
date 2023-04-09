@@ -1,0 +1,23 @@
+:root {
+    --background-color: pink;
+}
+
+body {
+    background-color: var(--background-color);
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: auto;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+    text-align: center;
+}
+
+title {
+    border-radius: 10%;
+    border-color: aqua;
+    border-width: 4rem;
+}

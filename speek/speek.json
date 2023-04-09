@@ -9,6 +9,7 @@
         "customChatAreaBackground": "file:///home/nxtperfect/.config/speek/TransGradient.jpg",
         "customTheme": "/home/nxtperfect/.config/speek/my_speek_theme",
         "emojiFont": "Noto-Emoji",
+        "fontSizeMultiplier": 1,
         "language": "en",
         "minimizeToSystemtray": true,
         "notificationVolume": 0.754054054054054,
@@ -16,7 +17,7 @@
         "showNotificationSystemtray": true,
         "theme": "Dark",
         "useCustomTheme": false,
-        "username": "Luna -w-"
+        "username": "Aurora"
     },
     "users": {
         "3cxkzgk734quyurgm6wppza2nuzqnf4gdvatpcilby6ykreyjwuav4ad": {

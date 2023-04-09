@@ -1,0 +1,6 @@
+2023-03-26 20:28:48.197 [info] Starting worker process with pid 27111 (type: fileWatcher, window: 1).
+2023-03-26 20:28:48.695 [info] Deleted from disk rust-lang.rust-analyzer /home/nxtperfect/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1435-linux-x64
+2023-03-26 20:28:48.757 [info] Deleted from disk streetsidesoftware.code-spell-checker /home/nxtperfect/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-2.20.1-universal
+2023-03-26 20:28:48.767 [info] Deleted from disk equinusocio.vsc-material-theme /home/nxtperfect/.vscode-oss/extensions/equinusocio.vsc-material-theme-33.6.0-universal
+2023-03-26 20:28:48.770 [info] Deleted from disk equinusocio.vsc-material-theme-icons /home/nxtperfect/.vscode-oss/extensions/equinusocio.vsc-material-theme-icons-2.7.2-universal
+2023-03-27 08:04:44.857 [warning] No ptyHost heartbeat after 6 seconds

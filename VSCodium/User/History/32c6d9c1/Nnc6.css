@@ -1,0 +1,27 @@
+
+
+body {
+  display: flexbox;
+  align-items: center;
+  background-color: rgb(255, 192, 203);
+  padding-top: 10px;
+  font-family: Ubuntu;
+}
+
+h1, h6 {
+  margin: 0.05em;
+  font-size: 4em;
+  color: #62B371;
+  text-align: center;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.logo {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}

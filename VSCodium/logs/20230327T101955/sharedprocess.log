@@ -1,0 +1,33 @@
+2023-03-27 10:19:57.301 [info] Starting worker process with pid 27130 (type: fileWatcher, window: 1).
+2023-03-27 10:20:03.603 [info] Getting Manifest... equinusocio.vsc-community-material-theme
+2023-03-27 10:20:03.603 [info] Getting Manifest... equinusocio.vsc-material-theme
+2023-03-27 10:20:03.603 [info] Getting Manifest... equinusocio.vsc-material-theme-icons
+2023-03-27 10:20:03.604 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-03-27 10:20:24.047 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/asset/Equinusocio/vsc-material-theme/33.8.0/Microsoft.VisualStudio.Code.Manifest?targetPlatform=universal {}
+2023-03-27 10:20:24.047 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/asset/Equinusocio/vsc-community-material-theme/1.4.6/Microsoft.VisualStudio.Code.Manifest?targetPlatform=universal {}
+2023-03-27 10:20:24.048 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/asset/Equinusocio/vsc-material-theme-icons/2.7.4/Microsoft.VisualStudio.Code.Manifest?targetPlatform=universal {}
+2023-03-27 10:20:24.048 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/asset/rust-lang/rust-analyzer/0.3.1451/Microsoft.VisualStudio.Code.Manifest?targetPlatform=linux-x64 {}
+2023-03-27 10:20:24.967 [info] Installing extension: equinusocio.vsc-material-theme
+2023-03-27 10:20:24.978 [info] Installing extension: equinusocio.vsc-community-material-theme
+2023-03-27 10:20:24.996 [info] Installing extension: equinusocio.vsc-material-theme-icons
+2023-03-27 10:20:25.112 [info] Installing extension: rust-lang.rust-analyzer
+2023-03-27 10:20:26.394 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.5281dd41-b588-49df-b1af-530375f41d55: equinusocio.vsc-community-material-theme
+2023-03-27 10:20:26.399 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/equinusocio.vsc-community-material-theme-1.4.6-universal
+2023-03-27 10:20:26.400 [info] Extracting completed. equinusocio.vsc-community-material-theme
+2023-03-27 10:20:26.409 [info] Extension installed successfully: equinusocio.vsc-community-material-theme
+2023-03-27 10:20:26.423 [info] Marked extension as uninstalled equinusocio.vsc-community-material-theme-1.4.4-universal
+2023-03-27 10:20:26.564 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.eabadff9-9f9d-48fd-8ee3-f710b7731da1: equinusocio.vsc-material-theme
+2023-03-27 10:20:26.569 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/equinusocio.vsc-material-theme-33.8.0-universal
+2023-03-27 10:20:26.570 [info] Extracting completed. equinusocio.vsc-material-theme
+2023-03-27 10:20:26.579 [info] Extension installed successfully: equinusocio.vsc-material-theme
+2023-03-27 10:20:26.594 [info] Marked extension as uninstalled equinusocio.vsc-material-theme-33.7.0-universal
+2023-03-27 10:20:28.441 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.b92aa7a2-0649-4c67-9fd6-68c0b3924dd4: rust-lang.rust-analyzer
+2023-03-27 10:20:28.455 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1451-linux-x64
+2023-03-27 10:20:28.457 [info] Extracting completed. rust-lang.rust-analyzer
+2023-03-27 10:20:28.466 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-03-27 10:20:28.488 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1443-linux-x64
+2023-03-27 10:20:29.132 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.06a6f699-0fab-4781-a434-c364234e4d58: equinusocio.vsc-material-theme-icons
+2023-03-27 10:20:29.142 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/equinusocio.vsc-material-theme-icons-2.7.4-universal
+2023-03-27 10:20:29.143 [info] Extracting completed. equinusocio.vsc-material-theme-icons
+2023-03-27 10:20:29.151 [info] Extension installed successfully: equinusocio.vsc-material-theme-icons
+2023-03-27 10:20:29.167 [info] Marked extension as uninstalled equinusocio.vsc-material-theme-icons-2.7.3-universal

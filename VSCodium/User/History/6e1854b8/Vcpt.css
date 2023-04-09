@@ -1,0 +1,10 @@
+:root {
+    --background-color: pink;
+}
+
+body {
+    background-color: var(--background-color);
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+}

@@ -1,0 +1,35 @@
+:root {
+    --background-color: pink;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+    height: 100%;
+}
+
+* {
+    text-align: center;
+}
+
+#title {
+    font-size: 24px;
+    background-color: peachpuff;
+    border: 50px;
+    border-color: red;
+    margin-top: 10rem;
+    line-height: 150px;
+}
+
+#url-box {
+    padding-top: 200px;
+    background-color: blueviolet;
+    margin-top: 20rem;
+    border-color: springgreen;
+    border-width: 5px;
+    border-radius: 10%;
+}

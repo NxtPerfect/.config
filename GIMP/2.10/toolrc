@@ -8,7 +8,7 @@
     (children
         (GimpToolInfo "gimp-move-tool"
             (icon-name "gimp-tool-move")
-            (visible yes))
+            (visible no))
         (GimpToolInfo "gimp-align-tool"
             (icon-name "gimp-tool-align")
             (visible yes))))
@@ -180,6 +180,6 @@
     (visible no))
 (GimpToolInfo "gimp-gegl-tool"
     (icon-name "gimp-gegl")
-    (visible no))
+    (visible yes))
 
 # end of toolrc

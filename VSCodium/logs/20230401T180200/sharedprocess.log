@@ -1,0 +1,13 @@
+2023-04-01 18:02:02.790 [info] Starting worker process with pid 11036 (type: fileWatcher, window: 1).
+2023-04-01 18:02:03.298 [info] Deleted from disk ms-toolsai.jupyter-renderers /home/nxtperfect/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.12-universal
+2023-04-01 18:02:03.312 [info] Deleted from disk donjayamanne.githistory /home/nxtperfect/.vscode-oss/extensions/donjayamanne.githistory-0.6.19-universal
+2023-04-01 18:02:03.342 [info] Deleted from disk ms-toolsai.jupyter /home/nxtperfect/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal
+2023-04-01 18:02:08.806 [info] Getting Manifest... ms-python.python
+2023-04-01 18:02:09.786 [info] Installing extension: ms-python.python
+2023-04-01 18:02:13.228 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.f091e77e-e9f0-4bef-9702-c4b2f50601ea: ms-python.python
+2023-04-01 18:02:13.241 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.1-universal
+2023-04-01 18:02:13.245 [info] Extracting extension completed. ms-python.python
+2023-04-01 18:02:13.255 [info] Extension installed successfully: ms-python.python
+2023-04-01 18:02:13.259 [info] Marked extension as uninstalled ms-python.python-2023.4.0-universal
+2023-04-01 18:08:13.391 [info] Worker process with pid 11036 terminated normally (type: fileWatcher, window: 1).
+2023-04-01 18:08:14.520 [info] Starting worker process with pid 27742 (type: fileWatcher, window: 1).

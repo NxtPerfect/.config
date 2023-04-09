@@ -1,0 +1,50 @@
+game:
+  args: app
+  exe: /home/nxtperfect/Games/roblox/roblox
+  working_dir: /home/nxtperfect/Games/roblox
+game_slug: roblox
+linux: {}
+name: ROBLOX
+requires: null
+script:
+  files:
+  - grapejuice: https://gitlab.com/brinkervii/grapejuice/-/archive/v4.10.2/grapejuice-v4.10.2.zip
+  - robloxwine: N/A Please create a file called "robloxwine.py" and copy and paste
+      that content from https://pastebin.com/raw/5SeVb005
+  game:
+    args: app
+    exe: $GAMEDIR/roblox
+    working_dir: $GAMEDIR
+  install_complete_text: Done, now enter in Roblox website(prefer firefox) and select
+    the experience or open Roblox app
+  installer:
+  - extract:
+      dst: $CACHE
+      file: grapejuice
+      format: zip
+  - merge:
+      dst: $GAMEDIR
+      src: $CACHE
+  - merge:
+      dst: $GAMEDIR
+      src: robloxwine
+  - chmodx: $GAMEDIR/install.py
+  - execute:
+      env:
+        key: python3 install.py
+      file: $GAMEDIR/install.py
+      terminal: false
+  - chmodx: $GAMEDIR/robloxwine.py
+  - execute:
+      command: python3 robloxwine.py
+  - chmodx: $HOME/.local/bin/grapejuice
+  - execute:
+      command: ln -s $HOME/.local/bin/grapejuice $GAMEDIR/roblox
+  - chmodx: $GAMEDIR/roblox
+slug: roblox-grapejuice-1
+system:
+  env:
+    MANGOHUD_CONFIG: cpu_temp,gpu_temp,ram,resolution,gamemode,font_size=13,round_corners=5.0
+variables: {}
+version: Grapejuice
+year: 2006

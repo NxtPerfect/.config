@@ -1,0 +1,29 @@
+2023-04-04 18:02:10.851 [info] Starting worker process with pid 27314 (type: fileWatcher, window: 1).
+2023-04-04 18:02:17.487 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-04-04 18:02:17.488 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2023-04-04 18:02:18.611 [info] Installing extension: rust-lang.rust-analyzer
+2023-04-04 18:02:18.730 [info] Installing extension: streetsidesoftware.code-spell-checker
+2023-04-04 18:02:20.833 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.771cb3ad-5472-4ef5-9879-7d5d7b966d0a: streetsidesoftware.code-spell-checker
+2023-04-04 18:02:20.846 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/streetsidesoftware.code-spell-checker-2.20.4-universal
+2023-04-04 18:02:20.849 [info] Extracting extension completed. streetsidesoftware.code-spell-checker
+2023-04-04 18:02:20.863 [info] Extension installed successfully: streetsidesoftware.code-spell-checker
+2023-04-04 18:02:20.867 [info] Marked extension as uninstalled streetsidesoftware.code-spell-checker-2.20.3-universal
+2023-04-04 18:02:20.970 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.e6b0fae1-4dcb-4ccf-89f7-d35f16eb6e23: rust-lang.rust-analyzer
+2023-04-04 18:02:20.977 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1463-linux-x64
+2023-04-04 18:02:20.978 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-04-04 18:02:20.988 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-04-04 18:02:20.990 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1451-linux-x64
+2023-04-04 18:05:53.959 [info] Getting Manifest... xaver.clang-format
+2023-04-04 18:05:54.429 [info] Installing extension: xaver.clang-format
+2023-04-04 18:05:54.877 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.a93e2362-976e-4f72-a21d-e5c6b76eb8f6: xaver.clang-format
+2023-04-04 18:05:54.884 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/xaver.clang-format-1.9.0-universal
+2023-04-04 18:05:54.885 [info] Extracting extension completed. xaver.clang-format
+2023-04-04 18:05:54.896 [info] Extension installed successfully: xaver.clang-format
+2023-04-04 18:05:56.734 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2023-04-04 18:05:56.896 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+2023-04-04 18:05:57.651 [info] Extracted extension to /home/nxtperfect/.vscode-oss/extensions/.7ac88ac8-a5db-49a5-a9ce-58c2e551829a: llvm-vs-code-extensions.vscode-clangd
+2023-04-04 18:05:57.658 [info] Renamed to /home/nxtperfect/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+2023-04-04 18:05:57.659 [info] Extracting extension completed. llvm-vs-code-extensions.vscode-clangd
+2023-04-04 18:05:57.668 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd
+2023-04-04 18:06:20.399 [info] Worker process with pid 27314 terminated normally (type: fileWatcher, window: 1).
+2023-04-04 18:06:21.488 [info] Starting worker process with pid 28126 (type: fileWatcher, window: 1).

@@ -1,0 +1,15 @@
+VSCodium (1.76.2, undefined, desktop)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.4.0.
+Workspace folder /home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation
+info 10:55:07.464: LSP Notebooks experiment is enabled
+warn 10:55:07.762: Failed to get activated env vars with python /bin/python3 in 166ms
+info 10:55:07.773: Process Execution: > /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 10:55:07.808: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 13:09:51.551: Process Execution: > ~/Documents/Programming/Python/BiggerProjects/Rotation/venv/bin/python -m pip list
+> ~/Documents/Programming/Python/BiggerProjects/Rotation/venv/bin/python -m pip list
+info 17:52:16.822: Shutting down notebooks for 0b6a7eb7-b113-402e-b84c-7ca747b5fc93
+info 17:52:16.822: Disposing HostJupyterExecution 10295098-4b74-4a4a-b1c0-4fa1c16f6a04
+info 17:52:16.822: Disposing HostJupyterExecution 10295098-4b74-4a4a-b1c0-4fa1c16f6a04

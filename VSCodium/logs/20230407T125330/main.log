@@ -1,0 +1,6 @@
+2023-04-07 12:53:30.839 [info] update#setState idle
+2023-04-07 12:53:32.337 [info] Starting extension host with pid 4037 (fork() took 6 ms).
+2023-04-07 12:54:00.840 [info] update#setState checking for updates
+2023-04-07 12:54:00.928 [info] update#setState available for download
+2023-04-07 19:37:52.956 [info] Waiting for extension host with pid 4037 to exit.
+2023-04-07 19:37:53.005 [info] Extension host with pid 4037 exited with code: 0, signal: null.

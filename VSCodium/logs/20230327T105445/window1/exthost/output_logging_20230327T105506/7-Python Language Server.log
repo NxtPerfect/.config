@@ -1,0 +1,465 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "12"
+WARNING:pygls.protocol:Cancel notification for unknown message id "20"
+WARNING:pygls.protocol:Cancel notification for unknown message id "312"
+WARNING:pygls.protocol:Cancel notification for unknown message id "372"
+WARNING:pygls.protocol:Cancel notification for unknown message id "406"
+WARNING:pygls.protocol:Cancel notification for unknown message id "441"
+WARNING:pygls.protocol:Cancel notification for unknown message id "485"
+WARNING:pygls.protocol:Cancel notification for unknown message id "594"
+WARNING:pygls.protocol:Cancel notification for unknown message id "668"
+WARNING:pygls.protocol:Cancel notification for unknown message id "669"
+WARNING:pygls.protocol:Cancel notification for unknown message id "836"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1165"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1166"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1220"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1441"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1664"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1696"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1698"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2041"
+ERROR:pygls.protocol:Failed to handle request 2186 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=26:26-26:26, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:00:43 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2265"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2673"
+WARNING:pygls.protocol:Cancel notification for unknown message id "15"
+WARNING:pygls.protocol:Cancel notification for unknown message id "63"
+WARNING:pygls.protocol:Cancel notification for unknown message id "151"
+WARNING:pygls.protocol:Cancel notification for unknown message id "204"
+WARNING:pygls.protocol:Cancel notification for unknown message id "213"
+WARNING:pygls.protocol:Cancel notification for unknown message id "214"
+WARNING:pygls.protocol:Cancel notification for unknown message id "215"
+WARNING:pygls.protocol:Cancel notification for unknown message id "217"
+WARNING:pygls.protocol:Cancel notification for unknown message id "216"
+WARNING:pygls.protocol:Cancel notification for unknown message id "227"
+WARNING:pygls.protocol:Cancel notification for unknown message id "230"
+WARNING:pygls.protocol:Cancel notification for unknown message id "232"
+WARNING:pygls.protocol:Cancel notification for unknown message id "233"
+WARNING:pygls.protocol:Cancel notification for unknown message id "234"
+WARNING:pygls.protocol:Cancel notification for unknown message id "235"
+WARNING:pygls.protocol:Cancel notification for unknown message id "236"
+WARNING:pygls.protocol:Cancel notification for unknown message id "237"
+WARNING:pygls.protocol:Cancel notification for unknown message id "238"
+WARNING:pygls.protocol:Cancel notification for unknown message id "241"
+ERROR:pygls.protocol:Failed to handle request 615 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:61-27:61, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:24:54 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "725"
+WARNING:pygls.protocol:Cancel notification for unknown message id "766"
+WARNING:pygls.protocol:Cancel notification for unknown message id "794"
+ERROR:pygls.protocol:Failed to handle request 803 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:41-27:41, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:30:22 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 812 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:40-27:40, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:30:23 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 815 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:41-27:41, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:30:27 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 817 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:41-27:41, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:30:27 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "847"
+ERROR:pygls.protocol:Failed to handle request 885 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:70-27:70, context=CodeActionContext(diagnostics=[Diagnostic(range=27:53-27:87, message='SyntaxError: invalid syntax. Perhaps you forgot a comma? (main.py, line 28)', severity=<DiagnosticSeverity.Error: 1>, code=None, code_description=None, source='compile', tags=None, related_information=None, data=None)], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:31:47 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 886 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:70-27:70, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:31:48 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 895 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:70-27:70, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:32:06 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+ERROR:pygls.protocol:Failed to handle request 900 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=27:73-27:73, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 1:32:08 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1115"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1125"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1655"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1661"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1663"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1665"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1667"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1669"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1679"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1767"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1792"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1794"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1813"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1873"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1875"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1878"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1890"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1894"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1924"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2018"
+ERROR:pygls.protocol:Failed to handle request 2179 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py'), range=29:84-29:84, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+[Error - 2:19:23 PM] Request textDocument/codeAction failed.
+  Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 578, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2235"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2290"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2337"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2472"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2496"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2546"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2547"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2566"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2671"
+Exception in thread Thread-1169:
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 289, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py", line 27
+    class Gui:
+IndentationError: expected an indented block after function definition on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 61, in run
+    return func(*args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 651, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 310, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 45, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+Exception in thread Thread-1170:
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 289, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py", line 26
+    class Gui:
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 61, in run
+    return func(*args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 651, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 310, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 45, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+Exception in thread Thread-1235:
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 289, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py", line 28
+    def on_release(key):
+SyntaxError: expected 'except' or 'finally' block
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 61, in run
+    return func(*args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 651, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 310, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 45, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+WARNING:pygls.protocol:Cancel notification for unknown message id "3230"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3233"
+Exception in thread Thread-1463:
+Traceback (most recent call last):
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 289, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/nxtperfect/Documents/Programming/Python/BiggerProjects/Rotation/main.py", line 54
+    if __name__ == "__main__":
+IndentationError: expected an indented block after 'if' statement on line 51
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 61, in run
+    return func(*args, **kwargs)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 651, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 310, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/home/nxtperfect/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 45, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+WARNING:pygls.protocol:Cancel notification for unknown message id "3547"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3577"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3603"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3636"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3671"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3693"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3709"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3737"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3792"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3795"
+WARNING:pygls.protocol:Cancel notification for unknown message id "4035"
+WARNING:pygls.protocol:Cancel notification for unknown message id "4061"
+WARNING:pygls.protocol:Cancel notification for unknown message id "4069"
+WARNING:pygls.protocol:Cancel notification for unknown message id "4075"
+WARNING:pygls.protocol:Cancel notification for unknown message id "4186"

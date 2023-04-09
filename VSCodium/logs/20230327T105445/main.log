@@ -1,0 +1,20 @@
+2023-03-27 10:54:45.189 [info] update#setState idle
+2023-03-27 10:54:46.647 [info] Starting extension host with pid 16852 (fork() took 6 ms).
+2023-03-27 10:55:05.300 [info] Extension host with pid 16852 exited with code: 0, signal: null.
+2023-03-27 10:55:06.293 [info] Starting extension host with pid 19614 (fork() took 7 ms).
+2023-03-27 10:55:15.190 [info] update#setState checking for updates
+2023-03-27 10:55:15.467 [info] update#setState idle
+2023-03-27 11:55:15.194 [info] update#setState checking for updates
+2023-03-27 11:55:15.685 [info] update#setState idle
+2023-03-27 12:55:15.198 [info] update#setState checking for updates
+2023-03-27 12:55:15.685 [info] update#setState idle
+2023-03-27 13:55:15.203 [info] update#setState checking for updates
+2023-03-27 13:55:15.753 [info] update#setState idle
+2023-03-27 14:55:15.206 [info] update#setState checking for updates
+2023-03-27 14:55:15.748 [info] update#setState idle
+2023-03-27 15:55:15.210 [info] update#setState checking for updates
+2023-03-27 15:55:15.992 [info] update#setState idle
+2023-03-27 16:55:15.271 [info] update#setState checking for updates
+2023-03-27 16:55:15.817 [info] update#setState idle
+2023-03-27 17:52:16.879 [info] Waiting for extension host with pid 19614 to exit.
+2023-03-27 17:52:16.942 [info] Extension host with pid 19614 exited with code: 0, signal: null.

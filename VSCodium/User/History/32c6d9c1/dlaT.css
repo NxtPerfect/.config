@@ -1,0 +1,18 @@
+body {
+  display: flexbox;
+  align-items: center;
+  background-color: pink;
+  padding-top: 10px;
+  font-family: Ubuntu;
+}
+
+h1, h6 {
+  margin: 0.05em;
+  font-size: 4em;
+  color: black;
+  text-align: center;
+}
+
+h6 {
+  font-size: 1em;
+}
