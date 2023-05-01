@@ -1,4 +1,20 @@
 #! /bin/sh
+
+# Launch firefox on workspace 1
+bspc rule -a Firefox desktop=^1 follow=off -o
+
+# Launch ferdium on workspace 2
+bspc rule -a Ferdium desktop=^2 follow=off -o
+
+# Launch terminal on workspace 3
+bspc rule -a Alacritty desktop=^3 follow=off -o
+
+# Launch steam on workspace 5
+bspc rule -a Steam desktop=^5 follow=off -o
+
+# Launch Lutris on workspace 5
+bspc rule -a Lutris desktop=^5 follow=off -o
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 ~/.config/polybar/launch.sh &
 nitrogen --restore &
@@ -6,11 +22,19 @@ picom &
 dunst &
 lxqt-policykit-agent &
 /usr/libexec/geoclue-2.0/demos/agent &
-redshift -c ~/.config/redshift.conf &
-keepassxc &
+if ! pgrep -x "redshift" > /dev/null; then
+  redshift -c ~/.config/redshift.conf &
+fi
+if ! pgrep -x "keepassxc" > /dev/null; then
+  keepassxc &
+fi
 syncthing &
 xscreensaver &
-flameshot
+if ! pgrep -x "flameshot" > /dev/null; then
+  flameshot &
+fi
+nohup ibus-daemon --xim &
+xsetroot -cursor_name left_ptr
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 
