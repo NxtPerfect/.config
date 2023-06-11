@@ -1,7 +1,7 @@
 #!/bin/sh
 
 envFile=~/.config/polybar/env.sh
-changeValue=300
+changeValue=100
 
 changeMode() {
   sed -i "s/REDSHIFT=$1/REDSHIFT=$2/g" $envFile 
