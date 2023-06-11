@@ -12,4 +12,4 @@ wallpaper - nitrogen
 launcher - rofi
 misc - tmux
 
-[~/Pictures/Flex_Unixporn.jpg]
+![screenshot of desktop](/home/nxtperfect/Pictures/Flex_Unixporn.jpg)
