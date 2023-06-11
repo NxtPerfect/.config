@@ -1,6 +1,0 @@
-2022/10/02-19:39:42.301 cd8 Reusing MANIFEST /home/nxtperfect/.config/Ferdium/Partitions/service-4b0b4250-9615-459f-bfbf-179a322c18a7/Session Storage/MANIFEST-000001
-2022/10/02-19:39:42.301 cd8 Recovering log #19
-2022/10/02-19:39:42.302 cd8 Reusing old log /home/nxtperfect/.config/Ferdium/Partitions/service-4b0b4250-9615-459f-bfbf-179a322c18a7/Session Storage/000019.log 
-2022/10/02-23:00:17.631 8653 Level-0 table #24: started
-2022/10/02-23:00:17.725 8653 Level-0 table #24: 16161 bytes OK
-2022/10/02-23:00:17.822 8653 Delete type=0 #19

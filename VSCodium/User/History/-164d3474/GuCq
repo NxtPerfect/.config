@@ -1,7 +1,0 @@
-// Quick vacc bubbles
-        alias "+explres" "slot2;wait 10;+reload;wait 2;-reload;wait 2;+attack2;wait 2;-attack2;wait 2;+reload;wait 5;-reload;wait 2;+reload;wait 5;-reload;wait 2"
-        alias "+fireres" "slot2;wait 10;+reload;wait 5;-reload;wait 2;+reload;wait 5;-reload;wait 2;+attack2;wait 2;-attack2;wait 2;+reload;wait 5;-reload;wait 2"
-        alias "+bullres" "slot2;wait 10;+attack2;wait 2;+reload;wait 5;-reload;wait 2;+reload;wait 5;-reload;wait 2;-attack2;wait 2;+reload;wait 5;-reload"
-        bind <key> "+bullres"
-        bind <key> "+explres"
-        bind <key> "+fireres"

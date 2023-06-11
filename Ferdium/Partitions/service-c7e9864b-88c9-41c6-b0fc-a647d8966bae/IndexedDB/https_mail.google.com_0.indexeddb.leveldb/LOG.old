@@ -1,9 +1,0 @@
-2022/10/03-16:29:34.577 18f4 Reusing MANIFEST /home/nxtperfect/.config/Ferdium/Partitions/service-c7e9864b-88c9-41c6-b0fc-a647d8966bae/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/10/03-16:29:34.578 18f4 Recovering log #1924
-2022/10/03-16:29:34.581 18f4 Reusing old log /home/nxtperfect/.config/Ferdium/Partitions/service-c7e9864b-88c9-41c6-b0fc-a647d8966bae/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/001924.log 
-2022/10/03-16:29:37.174 18f4 Compacting 1@1 + 1@2 files
-2022/10/03-16:29:37.185 18f4 Generated table #1927@1: 163 keys, 209660 bytes
-2022/10/03-16:29:37.185 18f4 Compacted 1@1 + 1@2 files => 209660 bytes
-2022/10/03-16:29:37.190 18f4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/10/03-16:29:37.190 18f4 Delete type=2 #1922
-2022/10/03-16:29:37.190 18f4 Delete type=2 #1925

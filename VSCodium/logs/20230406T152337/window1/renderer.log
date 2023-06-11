@@ -1,4 +1,0 @@
-2023-04-06 15:23:39.113 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
-package.json (LOSES): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip
-product.json (WINS): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads
-2023-04-06 15:23:42.256 [info] [perf] Render performance baseline is 37ms

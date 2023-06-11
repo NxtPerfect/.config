@@ -1,8 +1,0 @@
-2023-04-04 18:02:10.301 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
-package.json (LOSES): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip
-product.json (WINS): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads
-2023-04-04 18:02:13.334 [info] [perf] Render performance baseline is 40ms
-2023-04-04 18:06:21.592 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
-package.json (LOSES): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip
-product.json (WINS): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads
-2023-04-04 18:06:24.691 [info] [perf] Render performance baseline is 31ms

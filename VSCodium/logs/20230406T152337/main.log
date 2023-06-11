@@ -1,6 +1,0 @@
-2023-04-06 15:23:37.487 [info] update#setState idle
-2023-04-06 15:23:38.877 [info] Starting extension host with pid 5926 (fork() took 6 ms).
-2023-04-06 15:24:07.489 [info] update#setState checking for updates
-2023-04-06 15:24:07.596 [info] update#setState available for download
-2023-04-06 18:05:47.335 [info] Waiting for extension host with pid 5926 to exit.
-2023-04-06 18:05:47.373 [info] Extension host with pid 5926 exited with code: 0, signal: null.
