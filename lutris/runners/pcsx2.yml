@@ -1,0 +1,5 @@
+pcsx2:
+  fullscreen: true
+  nogui: false
+system:
+  game_path: /home/nxtperfect/Games

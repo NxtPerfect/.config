@@ -1,0 +1,21 @@
+game:
+  main_file: /home/nxtperfect/Games/metal-gear-solid-3-snake-eater/Metal Gear Solid
+    3 - Snake Eater (USA).iso
+game_slug: metal-gear-solid-3-snake-eater
+name: 'Metal Gear Solid 3: Snake Eater'
+pcsx2: {}
+requires: null
+script:
+  files:
+  - iso: N/A:Select the game's ISO file
+  installer:
+  - merge:
+      dst: $GAMEDIR
+      src: iso
+  main_file: iso
+  version: Playstation 2
+slug: metal-gear-solid-3-snake-eater-ps2
+system: {}
+variables: {}
+version: Sony PlayStation 2
+year: 2004

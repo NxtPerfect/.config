@@ -1,0 +1,8 @@
+game:
+  exe: /home/nxtperfect/Games/Nimbus INFINITY/NimbusInfinity.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/Nimbus INFINITY/
+system: {}
+wine:
+  Desktop: true
+  version: lutris-7.2-2-x86_64

@@ -1,0 +1,6 @@
+game:
+  exe: /home/nxtperfect/Torrents/Baldur's Gate 3 [FitGirl Repack]/setup.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Torrents/Baldur's Gate 3 [FitGirl Repack]
+system: {}
+wine: {}

@@ -1,0 +1,60 @@
+game:
+  arch: win32
+  exe: /home/nxtperfect/Games/need-for-speed-underground/drive_c/Program Files/EA
+    GAMES/Need For Speed Underground/Speed.exe
+  prefix: /home/nxtperfect/Games/need-for-speed-underground
+game_slug: need-for-speed-underground
+name: 'Need for Speed: Underground'
+requires: null
+script:
+  files:
+  - wspatch: https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/nfsu/NFSUnderground.WidescreenFix.zip
+  game:
+    arch: win32
+    exe: drive_c/Program Files/EA GAMES/NFS Underground/Speed.exe
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win32
+      install_mono: 'False'
+      prefix: /home/nxtperfect/Games/need-for-speed-underground
+      wine_path: /home/nxtperfect/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wine
+  - task:
+      app: d3dx9 dinput8
+      arch: win32
+      prefix: /home/nxtperfect/Games/need-for-speed-underground
+      wine_path: /home/nxtperfect/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wine
+  - insert-disc:
+      requires: setup.exe
+  - merge:
+      dst: $CACHE/nfsusetup
+      src: $DISC
+  - execute:
+      args: 744 -R $CACHE/nfsusetup
+      descritpion: Set proper file permissions for extracted data, please wait...
+      file: chmod
+  - task:
+      arch: win32
+      env: {}
+      executable: /home/nxtperfect/.cache/lutris/installer/need-for-speed-underground/nfsusetup/setup.exe
+      prefix: /home/nxtperfect/Games/need-for-speed-underground
+      wine_path: /home/nxtperfect/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wine
+  - extract:
+      dst: $CACHE/wspatch
+      file: wspatch
+  - merge:
+      dst: $GAMEDIR/drive_c/Program Files/EA GAMES/NFS Underground/
+      src: $CACHE/wspatch
+  wine:
+    Desktop: true
+    version: lutris-fshack-7.2-x86_64
+slug: need-for-speed-underground-2-disc
+system: {}
+variables: {}
+version: 2 Disc
+wine:
+  Desktop: false
+  fsr: false
+  fsync: false
+  version: lutris-7.2-2-x86_64
+year: 2003

@@ -1,0 +1,7 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 0.92156862745098034 0.6470588235294118 0.63921568627450975))
+(palette "Color History")
+(font "Ubuntu Nerd Font")
+
+# end of gimp-text-tool options

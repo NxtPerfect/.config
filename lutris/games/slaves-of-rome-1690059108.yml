@@ -1,0 +1,7 @@
+game:
+  exe: /home/nxtperfect/Games/Slaves of Rome/SlavesOfRome.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/Slaves of Rome
+system: {}
+wine:
+  version: lutris-GE-Proton8-10-x86_64

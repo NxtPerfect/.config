@@ -1,0 +1,6 @@
+game:
+  exe: /home/nxtperfect/Games/Homeseek/Homeseek.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/Homeseek
+system: {}
+wine: {}

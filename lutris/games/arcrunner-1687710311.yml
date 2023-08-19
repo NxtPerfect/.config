@@ -1,0 +1,10 @@
+game:
+  exe: /home/nxtperfect/Games/ArcRunner/ArcRunner.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/ArcRunner
+system:
+  env:
+    MANGOHUD_CONFIG: cpu_temp,cpu_power,gpu_temp,gpu_power,vram,ram,swap,resolution,gamemode,font_size=13,round_corners=5,throttling_status
+wine:
+  Desktop: true
+  version: lutris-7.2-2-x86_64

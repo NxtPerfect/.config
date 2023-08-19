@@ -1,0 +1,14 @@
+game:
+  appid: '293760'
+game_slug: automation-the-car-company-tycoon-game
+name: Automation - The Car Company Tycoon Game
+requires: null
+script:
+  game:
+    appid: '293760'
+service: steam
+service_id: '293760'
+slug: automation-the-car-company-tycoon-game-steam
+variables: {}
+version: Steam
+year: null

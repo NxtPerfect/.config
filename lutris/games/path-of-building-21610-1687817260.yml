@@ -1,0 +1,25 @@
+game:
+  exe: Path of Building.exe
+  prefix: /home/nxtperfect/Games/path-of-building
+game_slug: path-of-building
+name: Path of Building
+requires: null
+script:
+  files:
+  - pob_zip: https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v2.16.0/PathOfBuildingCommunity-Portable-2.16.0.zip
+  game:
+    exe: Path of Building.exe
+    prefix: $GAMEDIR
+  installer:
+  - extract:
+      dst: $GAMEDIR
+      file: pob_zip
+  wine:
+    version: lutris-7.2-2-x86_64
+slug: path-of-building-21610
+system: {}
+variables: {}
+version: 2.16.10
+wine:
+  version: lutris-7.2-2-x86_64
+year: 2016

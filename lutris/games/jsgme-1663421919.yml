@@ -1,0 +1,5 @@
+game:
+  exe: /mnt/misc/Anom/JSGME.exe
+  working_dir: /mnt/misc/Anom
+system: {}
+wine: {}

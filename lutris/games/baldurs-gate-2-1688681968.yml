@@ -1,0 +1,7 @@
+game:
+  exe: /home/nxtperfect/Games/Baldur's Gate II - Enhanced Edition/Baldur.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/Baldur's Gate II - Enhanced Edition
+system: {}
+wine:
+  version: lutris-7.2-2-x86_64

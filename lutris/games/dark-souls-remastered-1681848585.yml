@@ -1,0 +1,6 @@
+game:
+  exe: /home/nxtperfect/Games/Dark Souls Remastered/DarkSoulsRemastered.exe
+  prefix: /home/nxtperfect/.wine
+system: {}
+wine:
+  version: lutris-GE-Proton8-10-x86_64

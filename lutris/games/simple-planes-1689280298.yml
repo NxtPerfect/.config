@@ -1,0 +1,6 @@
+game:
+  exe: /home/nxtperfect/Games/SimplePlanes/SimplePlanes.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/SimplePlanes
+system: {}
+wine: {}

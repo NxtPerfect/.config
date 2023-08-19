@@ -1,0 +1,11 @@
+game:
+  exe: /mnt/misc/Anomaly-1.5.2/bin/AnomalyDX11.exe
+  working_dir: /mnt/misc/Anomaly-1.5.2
+linux: {}
+system:
+  env:
+    MANGOHUD_CONFIG: cpu_temp,gpu_temp,ram,font_size=12
+    WINE_FULLSCREEN_FSR: '1'
+    WINE_FULLSCREEN_FSR_SHARPNESS: '0'
+  mangohud: true
+  resolution: 1600x900

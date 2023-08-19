@@ -1,0 +1,7 @@
+game:
+  exe: /home/nxtperfect/Games/Pact of Joy/PactOfJoy.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/Pact of Joy
+system: {}
+wine:
+  version: lutris-GE-Proton8-10-x86_64

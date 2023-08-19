@@ -1,0 +1,113 @@
+game:
+  arch: win32
+  exe: drive_c/Program Files/EA GAMES/Need for Speed Underground 2/SPEED2.EXE
+  prefix: /home/nxtperfect/Games/need-for-speed-underground-2
+game_slug: need-for-speed-underground-2
+name: 'Need for Speed: Underground 2'
+requires: null
+script:
+  files:
+  - wspatch: https://github.com/ThirteenAG/WidescreenFixesPack/releases/download/nfsu2/NFSUnderground2.WidescreenFix.zip
+  game:
+    arch: win32
+    exe: drive_c/Program Files/EA GAMES/Need for Speed Underground 2/SPEED2.EXE
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win32
+      install_mono: 'False'
+      prefix: /home/nxtperfect/Games/need-for-speed-underground-2
+      wine_path: /home/nxtperfect/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wine
+  - task:
+      app: d3dx9 dinput8
+      arch: win32
+      prefix: /home/nxtperfect/Games/need-for-speed-underground-2
+      wine_path: /home/nxtperfect/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wine
+  - insert-disc:
+      requires: data2.cab
+  - task:
+      arch: win32
+      env: {}
+      executable: /home/nxtperfect/Torrents/Need for Speed Underground 2 V1.2 {Full-Game}
+        {Requested ISO} {blaze69}/mount/Setup.exe
+      prefix: /home/nxtperfect/Games/need-for-speed-underground-2
+      wine_path: /home/nxtperfect/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wine
+  - extract:
+      dst: $CACHE/wspatch
+      file: wspatch
+  - merge:
+      dst: $GAMEDIR/drive_c/Program Files/EA GAMES/Need for Speed Underground 2/
+      src: $CACHE/wspatch
+  - input_menu:
+      id: RESX
+      options:
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      preselect: '1920'
+  - input_menu:
+      id: RESY
+      options:
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      preselect: '1080'
+  - write_config:
+      data:
+        MAIN:
+          ResX: $INPUT_RESX
+          ResY: $INPUT_RESY
+      file: $GAMEDIR/drive_c/Program Files/EA GAMES/Need for Speed Underground 2/scripts/NFSUnderground2.WidescreenFix.ini
+  system:
+    prefix_command: taskset --cpu-list 0-3
+  wine:
+    Desktop: true
+    version: lutris-fshack-7.2-x86_64
+slug: need-for-speed-underground-2-cddvd
+system:
+  prefix_command: taskset --cpu-list 0-3
+variables: {}
+version: CD/DVD
+wine:
+  Desktop: true
+  fsr: false
+  fsync: false
+  version: system
+year: 2004

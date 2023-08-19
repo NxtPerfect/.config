@@ -1,0 +1,12 @@
+game:
+  exe: /home/nxtperfect/Games/MO2/ModOrganizer.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: ''
+system:
+  env:
+    MANGOHUD_CONFIG: cpu_temp,gpu_temp,ram,resolution,gamemode,font_size=13,round_corners=5
+  gamescope: false
+wine:
+  fsr: false
+  fsync: false
+  version: system

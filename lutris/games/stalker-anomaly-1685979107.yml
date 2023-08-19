@@ -1,0 +1,12 @@
+game:
+  exe: /home/nxtperfect/Games/Anom/bin/AnomalyDX11.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/Anom
+system: {}
+wine:
+  Desktop: false
+  battleye: false
+  dgvoodoo2: false
+  eac: false
+  fsr: false
+  version: lutris-7.2-2-x86_64

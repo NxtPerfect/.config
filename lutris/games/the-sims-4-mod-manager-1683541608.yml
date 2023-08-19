@@ -1,0 +1,5 @@
+game:
+  exe: /home/nxtperfect/Downloads/setup.exe
+system: {}
+wine:
+  version: system

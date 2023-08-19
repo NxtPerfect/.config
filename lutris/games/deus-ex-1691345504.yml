@@ -1,0 +1,6 @@
+game:
+  exe: /home/nxtperfect/Games/Deus Ex GOTY/System/DeusEx.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/Deus Ex GOTY
+system: {}
+wine: {}

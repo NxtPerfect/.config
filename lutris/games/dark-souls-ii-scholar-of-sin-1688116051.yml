@@ -1,0 +1,10 @@
+game:
+  exe: /home/nxtperfect/Games/Dark Souls 2 - Scholar of the First Sin/DarkSoulsII.exe
+  prefix: /home/nxtperfect/.wine
+  working_dir: /home/nxtperfect/Games/Dark Souls 2 - Scholar of the First Sin
+system:
+  prefer_system_libs: true
+wine:
+  esync: true
+  fsync: true
+  version: lutris-GE-Proton8-10-x86_64

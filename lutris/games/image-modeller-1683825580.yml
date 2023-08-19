@@ -1,0 +1,6 @@
+game:
+  exe: /home/nxtperfect/Games/ImageModeller/ImageModeler.exe
+  working_dir: /home/nxtperfect/Games/ImageModeller
+system: {}
+wine:
+  version: system

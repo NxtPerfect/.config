@@ -1,0 +1,7 @@
+game:
+  exe: /mnt/misc/Dark Souls Remastered/DarkSoulsRemastered.exe
+  working_dir: ''
+system:
+  env: {}
+wine:
+  version: lutris-GE-Proton7-34-x86_64
