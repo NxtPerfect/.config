@@ -1,0 +1,95 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d/%m/%Y"
+
+  # Print the current time
+  - trigger: ":now"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M"
+
+  # Print time in 1 hour advance
+  - trigger: ":+1h"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M"
+          offset: 3600
+
+  # Print time in 1 hour retardation
+  - trigger: ":-1h"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M"
+          offset: -3600
+
+  # Print the tomorrow's date
+  - trigger: ":tomorrow"
+    replace: "{{mytime}}"
+    label: "Insert tomorrow's date, such as 5-Jan-2022"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%d/%m/%Y"
+          offset: 86400
+
+  # Print the yesterday's date
+  - trigger: ":yesterday"
+    replace: "{{mytime}}"
+    label: "Insert yesterday's date, such as 5-Jan-2022"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%d/%m/%Y"
+          offset: -86400
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  # Github link
+  - trigger: ":github"
+    replace: "https://github.com/nxtperfect"
+
+  # Codeberg link
+  - trigger: ":codeberg"
+    replace: "https://codeberg.org/nxtperfect"
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
