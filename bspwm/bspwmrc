@@ -1,0 +1,82 @@
+#! /bin/sh
+
+# Launch firefox on workspace 1
+bspc rule -a Firefox desktop=^1 follow=off -o
+if ! pgrep -x "firefox" > /dev/null; then
+  firefox &
+fi
+
+# Launch obsidian on workspace 2
+bspc rule -a md.obsidian.Obsidian desktop=^1 follow=off -o
+if ! pgrep -x "obsidian" > /dev/null; then
+  flatpak run md.obsidian.Obsidian &
+fi
+
+# Launch ferdium on workspace 2
+bspc rule -a Ferdium desktop=^2 follow=off -o
+if ! pgrep -x "ferdium" > /dev/null; then
+  flatpak run org.ferdium.Ferdium &
+fi
+
+# Launch terminal on workspace 3 FLEX
+bspc rule -a Alacritty desktop=^3 follow=off -o
+if ! pgrep -x "alacritty" > /dev/null; then
+  alacritty &
+fi
+
+# Launch terminal on workspace 4 TMUX
+bspc rule -a Alacritty desktop=^4 follow=off -o
+if ! pgrep -x "alacritty" > /dev/null; then
+  alacritty &
+fi
+
+# Launch steam on workspace 5
+bspc rule -a Steam desktop=^5 follow=off -o
+if ! pgrep -x "steam" > /dev/null; then
+  steam &
+fi
+
+# Launch Lutris on workspace 5
+bspc rule -a Lutris desktop=^5 follow=off -o
+if ! pgrep -x "lutris" > /dev/null; then
+  lutris &
+fi
+
+# Launch pulse effects on workspace 6
+bspc rule -a com.github.wwmm.pulseeffects desktop=^6 follow=off -o
+if ! pgrep -x "pulseeffects" > /dev/null; then
+  flatpak run com.github.wwmm.easyeffects &
+fi
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+~/.config/polybar/launch.sh &
+~/.fehbg &
+picom &
+dunst &
+lxpolkit &
+# /usr/libexec/geoclue-2.0/demos/agent &
+if ! pgrep -x "keepassxc" > /dev/null; then
+  keepassxc &
+fi
+syncthing &
+xscreensaver &
+if ! pgrep -x "flameshot" > /dev/null; then
+  flameshot &
+fi
+ibus-daemon --xim &
+xsettingsd &
+xsetroot -cursor_name left_ptr
+
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+
+bspc rule -a motion_recorder state=floating
+bspc rule -a showmethekey-gtk state=floating
+
+bspc config border_width          0
+bspc config window_gap            8
+bspc config top_padding           40
+bspc config focus_follows_pointer true
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
