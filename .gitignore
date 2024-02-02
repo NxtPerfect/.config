@@ -19,6 +19,7 @@
 
 # Exclude the rest
 *
+hub
 #
 # dconf/
 # goa-1.0/
