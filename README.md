@@ -10,7 +10,7 @@ Prompt - Starship\
 Bar - Polybar\
 Wallpaper - Feh\
 Launcher - Rofi\
-Misc - Tmux\
+Misc - Tmux
 
 Tmux plugins
  - tmux-plugins/tpm
