@@ -1,16 +1,16 @@
 ## My Fedora 38 dot files
 
 ### What's used
-Terminal - Alacritty
-Font - JetBrains Mono
-Browser - Firefox
-Shell - Fish
-Editor - Nvchad
-Prompt - Starship
-Bar - Polybar
-Wallpaper - Feh
-Launcher - Rofi
-Misc - Tmux
+Terminal - Alacritty\
+Font - JetBrains Mono\
+Browser - Firefox\
+Shell - Fish\
+Editor - Nvchad\
+Prompt - Starship\
+Bar - Polybar\
+Wallpaper - Feh\
+Launcher - Rofi\
+Misc - Tmux\
 
 Tmux plugins
  - tmux-plugins/tpm
