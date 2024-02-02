@@ -4,4 +4,4 @@ game:
   working_dir: /home/nxtperfect/Games/Titan Quest - Anniversary Edition
 system: {}
 wine:
-  version: lutris-GE-Proton8-10-x86_64
+  version: lutris-GE-Proton8-24-x86_64

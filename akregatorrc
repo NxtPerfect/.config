@@ -1,0 +1,32 @@
+[Appearance]
+Fixed Font=monospace
+Sans Serif Font=Sans Serif
+Serif Font=Sans Serif
+Standard Font=Sans Serif
+
+[General]
+ArticleListFeedHeaders=
+ArticleListGroupHeaders=
+Fetch On Startup=true
+SubscriptionListHeaders=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAZAAAAAEAAAAmAAAA5wAAAAMBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAADnAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAGQ=
+
+[HTML Settings]
+Fonts=Sans Serif,monospace,Sans Serif,Sans Serif,Sans Serif,Sans Serif,0
+MediumFontSize=9
+MinimumFontSize=7
+
+[MainWindow]
+1920x1080 screen: Height=1032
+1920x1080 screen: Width=1920
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=48
+HDMI-0=HDMI-0
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOxAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Migratekde4]
+Version=1
+
+[View]
+Splitter 1 Sizes=494,1425

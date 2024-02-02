@@ -1,0 +1,28 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+1826x1027 screen: Height=981
+1826x1027 screen: Width=1826
+1826x1027 screen: XPosition=0
+1826x1027 screen: YPosition=46
+1920x1080 screen: Height=1032
+1920x1080 screen: Width=1920
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=48
+HDMI-0=HDMI-0
+State=AAAA/wAAAAD9AAAAAQAAAAAAAADIAAADk/wCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAABCAAADkwAAAQsBAAAGAAAGWQAAA5MAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Books/edddcd23ae449b765e4afaf151cd6f83.epub
+File2[$e]=$HOME/Documents/Transgenderism.pdf
+Name1[$e]=edddcd23ae449b765e4afaf151cd6f83.epub
+Name2[$e]=Transgenderism.pdf
+
+[UiSettings]
+ColorScheme=AdwaitaDark

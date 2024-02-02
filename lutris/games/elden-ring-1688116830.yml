@@ -2,6 +2,5 @@ game:
   exe: /home/nxtperfect/Games/ELDEN RING/Game/eldenring.exe
   prefix: /home/nxtperfect/.wine
   working_dir: /home/nxtperfect/Games/ELDEN RING/Game
-system: {}
 wine:
-  version: lutris-GE-Proton8-10-x86_64
+  version: lutris-GE-Proton8-24-x86_64

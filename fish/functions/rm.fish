@@ -1,4 +1,4 @@
-function rm --description 'alias rm=rm -i'
- command rm -i $argv
+function rm --wraps=trash --wraps='trash --verbose' --description 'alias rm=trash --verbose'
+  trash --verbose $argv
         
 end

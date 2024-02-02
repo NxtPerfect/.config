@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/PowerWash Simulator/PowerWashSimulator.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/PowerWash Simulator
-system: {}
-wine:
-  version: lutris-GE-Proton8-10-x86_64

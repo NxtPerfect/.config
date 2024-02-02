@@ -1,4 +1,4 @@
-function update --wraps='sudo dnf update -y && sudo flatpak update -y' --wraps='sudo dnf update -y && flatpak update -y' --description 'alias update=sudo dnf update -y && flatpak update -y'
-  sudo dnf update -y && flatpak update -y $argv
+function update --wraps='sudo -i dnf update -y && sudo flatpak update -y' --description 'updates both dnf and flatpak package manager'
+  sudo -i dnf update -y && flatpak update -y $argv
         
 end

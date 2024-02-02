@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty --config-file ~/alacritty.yaml -e fish
+	alacritty -e fish
 
 # program launcher
 super + d

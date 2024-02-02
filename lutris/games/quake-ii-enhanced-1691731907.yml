@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Quake II Enhanced/quake2.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Quake II Enhanced
-system: {}
-wine:
-  version: lutris-7.2-x86_64

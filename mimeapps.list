@@ -1,0 +1,44 @@
+[Default Applications]
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+x-scheme-handler/roblox-studio=roblox-studio.desktop
+x-scheme-handler/roblox-player=roblox-player.desktop
+application/x-roblox-rbxl=roblox-studio.desktop
+application/x-roblox-rbxlx=roblox-studio.desktop
+x-scheme-handler/roblox-studio-auth=roblox-studio-auth.desktop
+x-scheme-handler/roblox=roblox-player.desktop
+x-scheme-handler/discord-218837120066781184=discord-218837120066781184.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-42A101.desktop
+message/rfc822=userapp-Thunderbird-42A101.desktop
+x-scheme-handler/mid=userapp-Thunderbird-42A101.desktop
+inode/directory=pcmanfm.desktop
+application/epub+zip=calibre-gui.desktop
+x-scheme-handler/nxm=modorganizer2-nxm-handler.desktop
+application/x-shellscript=nvim.desktop
+x-scheme-handler/eclipse+installer=_home_nxtperfect_Downloads_Eclipse_eclipse-installer_.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_home_nxtperfect_eclipse_java-2023-09_eclipse_.desktop
+
+[Added Associations]
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+text/html=firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-42A101.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-42A101.desktop;
+application/epub+zip=calibre-gui.desktop;
+application/x-shellscript=nvim.desktop;
+application/x-php=firefox.desktop;

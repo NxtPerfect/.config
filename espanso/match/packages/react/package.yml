@@ -1,0 +1,16 @@
+matches:
+
+  # Git Init
+  - trigger: "::rtc"
+    replace: |
+      import './App.scss'
+
+      function App() {
+        return (
+          <>
+            $|$
+          </>
+        )
+      }
+
+      export default App

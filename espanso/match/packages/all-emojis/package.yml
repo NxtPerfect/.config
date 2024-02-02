@@ -103,6 +103,8 @@ matches:
     replace: "\U0001F913"
   - trigger: ':glasses:'
     replace: "\U0001F913"
+  - trigger: ':pleading face:'
+    replace: "\U0001F97A"
   - trigger: ':sunglasses:'
     replace: "\U0001F60E"
   - trigger: ':clown face:'

@@ -3,4 +3,5 @@ game:
   prefix: /home/nxtperfect/.wine
   working_dir: /home/nxtperfect/Games/Homeseek
 system: {}
-wine: {}
+wine:
+  version: lutris-GE-Proton8-24-x86_64

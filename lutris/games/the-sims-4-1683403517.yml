@@ -1,6 +1,8 @@
 game:
+  args: -alwaysoffline
   exe: /home/nxtperfect/Games/The Sims 4/Game/Bin/TS4_x64.exe
+  prefix: /home/nxtperfect/.wine
 system:
   game_path: ~/Games
 wine:
-  version: lutris-GE-Proton8-4-x86_64
+  version: wine-ge-8-24-x86_64

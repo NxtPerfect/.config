@@ -85,11 +85,52 @@ matches:
         params:
           cmd: "echo 'Hello from your shell'"
 
+  # Inserts [redacted] block into text
+  - trigger: ":censor"
+    replace: "[redacted]"
+    label: "Insert censorship"
+
+  # Inserts LGBTQ+ in place of lgbt
+  - trigger: "lgbt"
+    replace: "LGBTQ+"
+    label: "Replace with proper LGBTQ+ name"
+
+  # Communism explanation, as it could work
+  - trigger: ":communism"
+    replace: "[It could actually work](https://www.ucl.ac.uk/culture-online/case-studies/2022/sep/does-communism-work-if-so-why-not), as it does in China"
+
+  # Session link and ID
+  - trigger: ":session"
+    replace: "Discord is proprietary and showed in the past that it can share your data with law enforcement. While this isn't a problem if you're not breaking the law, this also means that anytime FBI/CIA or so on ask for your data, they'll get it. It was proven that these organisations used this law very freely and abuse it in a lot of situations. I'm unsure how long Discord will work, and for more private stuff that I'm not sharing publicly download [Session](https://getsession.org/download). Which is as safe as Signal, but doesn't require a phone number [as you can read here](https://reddit.com/r/privacy/comments/jy3hjo/signal_vs_session_private_messenger/hgzef3y/?context=3) Once you've downloaded it, add me through this ID: `05d09cb614c750cccc33433e9ef15ccec6415aab21a2731cb13d060b809c53f77a`"
+    label: "Insert link to session chat app and my connection ID"
+
   # Github link
   - trigger: ":github"
-    replace: "https://github.com/nxtperfect"
+    replace: "https://github.com/nxtperfect/"
+    label: "Insert link to my github account"
 
   # Codeberg link
   - trigger: ":codeberg"
-    replace: "https://codeberg.org/nxtperfect"
+    replace: "https://codeberg.org/nxtperfect/"
+    label: "Insert link to my codeberg account"
+
+  # Steam optimization
+  - trigger: ":steam optimize"
+    replace: "mangohud MANGOHUD_CONFIG=cpu_temp,cpu_power,gpu_temp,gpu_power,vram,ram,swap,resolution,gamemode,font_size=13,round_corners=5,throttling_status gamemoderun %command%"
+    label: "Commands to optimize steam games for linux"
+
+  # Technożul
+  - trigger: ":techno"
+    replace: "https://www.youtube.com/watch?v=KSPxHniCtmw"
+    label: "Polish meme, techno homeless person"
+
+  # Hej czy ty wiesz
+  - trigger: ":hej"
+    replace: "https://www.youtube.com/watch?v=AkAnRcZNQEE"
+    label: "Dawid Jasper - Hej czy ty wiesz?"
+
+  # Chip
+  - trigger: ":chip"
+    replace: "https://www.youtube.com/watch?v=WIRK_pGdIdA"
+    label: "Chip"
   # And much more! For more information, visit the docs: https://espanso.org/docs/

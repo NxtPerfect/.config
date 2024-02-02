@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Halls of Torment/HallsOfTorment.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Halls of Torment
-system: {}
-wine:
-  version: lutris-GE-Proton8-10-x86_64

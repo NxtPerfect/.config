@@ -1,3 +1,6 @@
 2022-12-23T16:37:46.834Z error: Tray is destroyed
 2023-01-23T09:54:55.524Z error: Tray is destroyed
 2023-05-21T18:42:42.420Z error: Tray is destroyed
+2023-10-01T19:28:02.989Z error: [ctx] Error calling tray.update-menu
+2023-10-12T22:12:32.226Z error: [ctx] Error calling tray.update-menu
+2023-12-31T07:24:56.441Z error: [ctx] Error calling tray.update-menu

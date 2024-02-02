@@ -1,6 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Police Simulator - Patrol Officers/Boston.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Police Simulator - Patrol Officers
-system: {}
-wine: {}

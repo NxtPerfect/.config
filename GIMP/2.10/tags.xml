@@ -967,6 +967,9 @@
   <resource identifier="gimp-gradient-fg-transparent" checksum="1491f74caf057a39c8193470da2d2a29">
   </resource>
 
+  <resource identifier="gimp-gradient-fg-transparent-hardedge" checksum="34dca90c80cbb5d91a2d07a0e2cfba84">
+  </resource>
+
   <resource identifier="${gimp_data_dir}/gradients/Abstract_1.ggr" checksum="edaa7d1fc882ab813b75b49ee9272913">
   </resource>
 
@@ -1177,7 +1180,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="fcd89985c064ab8063fe70fa8909ade6">
+  <resource identifier="gimp-palette-color-history" checksum="a30d9750cc38ba06789efe9a890ce56f">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1445,6 +1448,12 @@
   </resource>
 
   <resource identifier="Comfortaa Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Comfortaa Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Comfortaa Semi-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Comic Sans MS" checksum="(null)">
@@ -2119,6 +2128,225 @@
   <resource identifier="Komika Axis" checksum="(null)">
   </resource>
 
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Caps" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Caps Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Light," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Light, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Light, Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Light Cond" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Light Cond Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Light, Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Prop" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Prop Light," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Prop Light, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Prop Light, Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Prop Light, Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Prop Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Mono Slanted" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Caps" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Caps Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Demi Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Demi Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Dunhill" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Dunhill Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Slanted" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Slanted" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Slanted" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Slanted" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Slanted" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Slanted Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Roman Unslanted" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Demi Cond Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Demi Cond Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Quotation" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Quotation Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Quotation Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Sans Quotation Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="Lekton Nerd Font" checksum="(null)">
   </resource>
 
@@ -2233,10 +2461,49 @@
   <resource identifier="Material Icons" checksum="(null)">
   </resource>
 
-  <resource identifier="Meera New" checksum="(null)">
+  <resource identifier="Mingzat" checksum="(null)">
   </resource>
 
-  <resource identifier="Mingzat" checksum="(null)">
+  <resource identifier="MnSymbol" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MnSymbol Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Monospace" checksum="(null)">
@@ -4598,6 +4865,9 @@
   </resource>
 
   <resource identifier="PakType Naskh Basic" checksum="(null)">
+  </resource>
+
+  <resource identifier="RIT Meera New" checksum="(null)">
   </resource>
 
   <resource identifier="RobotoMono Nerd Font" checksum="(null)">
