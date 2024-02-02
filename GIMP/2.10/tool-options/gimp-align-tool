@@ -1,6 +1,0 @@
-# GIMP gimp-align-tool options
-
-(align-reference selection)
-(offset-y 800)
-
-# end of gimp-align-tool options

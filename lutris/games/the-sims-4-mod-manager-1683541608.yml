@@ -1,8 +1,0 @@
-game:
-  exe: /home/nxtperfect/.wine/drive_c/users/nxtperfect/AppData/Local/Programs/s4mm/Sims
-    4 Mod Manager.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: ''
-system: {}
-wine:
-  version: system

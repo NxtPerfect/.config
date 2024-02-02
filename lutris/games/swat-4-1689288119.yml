@@ -1,5 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/SWAT 4/Content/System/Swat4.exe
-  prefix: /home/nxtperfect/.wine
-system: {}
-wine: {}

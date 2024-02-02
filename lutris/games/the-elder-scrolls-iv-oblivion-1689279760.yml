@@ -1,6 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Oblivion/Oblivion.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Oblivion
-system: {}
-wine: {}

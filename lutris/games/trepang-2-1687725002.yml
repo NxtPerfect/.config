@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Trepang2/CPPFPS.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Trepang2
-system: {}
-wine:
-  version: lutris-GE-Proton8-1-x86_64

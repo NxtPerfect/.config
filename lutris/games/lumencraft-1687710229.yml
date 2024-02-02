@@ -1,8 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Lumencraft/Lumencraft.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Lumencraft
-system: {}
-wine:
-  Desktop: true
-  version: lutris-7.2-2-x86_64

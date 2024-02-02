@@ -1,7 +1,0 @@
-system:
-  env:
-    MANGOHUD_CONFIG: cpu_temp,cpu_power,gpu_temp,gpu_power,vram,ram,swap,resolution,gamemode,font_size=13,round_corners=5,throttling_status
-  game_path: /home/nxtperfect/Games
-  locale: ''
-  mangohud: true
-  reset_desktop: true

@@ -1,8 +1,0 @@
-[colors]
-background = #f0fafafa
-background-alt = #404040
-foreground = #404040
-primary = #e37dad
-secondary = #eba5a3
-alert = #ff0000
-disabled = #202020

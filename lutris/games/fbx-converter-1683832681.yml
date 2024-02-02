@@ -1,6 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/FBX Converter/2013.3/FBXConverterUI.exe
-  working_dir: /home/nxtperfect/Games/FBX Converter/2013.3
-system: {}
-wine:
-  version: system

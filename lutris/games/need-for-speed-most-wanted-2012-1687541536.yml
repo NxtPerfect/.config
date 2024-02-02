@@ -1,8 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Need for Speed Most Wanted 2012/NFS13.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Need for Speed Most Wanted 2012
-system: {}
-wine:
-  fsync: false
-  version: system

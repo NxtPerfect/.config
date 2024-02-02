@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Suzerain/Suzerain.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Suzerain
-system: {}
-wine:
-  version: lutris-GE-Proton8-24-x86_64

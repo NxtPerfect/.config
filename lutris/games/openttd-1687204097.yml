@@ -1,5 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/openttd-13.3-linux-generic-amd64/openttd
-  working_dir: /home/nxtperfect/Games/openttd-13.3-linux-generic-amd64
-linux: {}
-system: {}

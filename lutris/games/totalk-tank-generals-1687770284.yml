@@ -1,9 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Total Tank Generals/Total Tank Generals.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Total Tank Generals
-system: {}
-wine:
-  WineDesktop: 1920x1080
-  fsync: true
-  version: lutris-GE-Proton8-1-x86_64

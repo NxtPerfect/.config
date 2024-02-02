@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/.wine/drive_c/Program Files (x86)/Autodesk/ImageModeler 2009/ImageModeler.exe
-system:
-  env:
-    MANGOHUD_CONFIG: cpu_temp,gpu_temp,ram,resolution,gamemode,font_size=13,round_corners=5
-    WINE_FULLSCREEN_FSR: '1'
-wine: {}

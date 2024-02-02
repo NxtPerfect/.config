@@ -1,6 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Star Wars - KotOR/swkotor.exe
-  working_dir: /home/nxtperfect/Games/Star Wars - KotOR
-system: {}
-wine:
-  version: lutris-GE-Proton7-43-x86_64

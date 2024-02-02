@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Homeseek/Homeseek.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Homeseek
-system: {}
-wine:
-  version: lutris-GE-Proton8-24-x86_64

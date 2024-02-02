@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Hot Lava/archive/build/hotlava.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Hot Lava
-system: {}
-wine:
-  version: lutris-GE-Proton8-24-x86_64

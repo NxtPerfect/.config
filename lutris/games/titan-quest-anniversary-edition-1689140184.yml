@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Titan Quest - Anniversary Edition/TQ.exe
-  prefix: /home/nxtperfect/.PlayOnLinux/wineprefix/titan_quest
-  working_dir: /home/nxtperfect/Games/Titan Quest - Anniversary Edition
-system: {}
-wine:
-  version: lutris-GE-Proton8-24-x86_64

@@ -1,6 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Neverwinter Nights - Enhanced Edition/bin/linux-x86/nwmain-linux
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Neverwinter Nights - Enhanced Edition/
-system: {}
-wine: {}

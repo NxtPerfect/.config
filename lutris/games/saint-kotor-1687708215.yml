@@ -1,6 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Saint Kotar/Saint Kotar.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Saint Kotar
-system: {}
-wine: {}

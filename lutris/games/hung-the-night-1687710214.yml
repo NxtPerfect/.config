@@ -1,7 +1,0 @@
-game:
-  exe: /home/nxtperfect/Games/Hunt the Night/Hunt the Night.exe
-  prefix: /home/nxtperfect/.wine
-  working_dir: /home/nxtperfect/Games/Hunt the Night
-system: {}
-wine:
-  version: lutris-7.2-2-x86_64
